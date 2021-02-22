@@ -23,25 +23,28 @@ WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Object Repository/02/Page_Bluuu -/img_TH_avatar_Not-Login'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/button_ Facebook_Login'))
+WebUI.click(findTestObject('Object Repository/02/Page_Bluuu -/button_ Facebook_Login'))
 
 WebUI.switchToWindowTitle('Facebook')
 
-WebUI.setText(findTestObject('NO/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+WebUI.setText(findTestObject('Object Repository/02/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
 
-WebUI.setEncryptedText(findTestObject('NO/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/02/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
 
-WebUI.click(findTestObject('NO/Page_Facebook/label__loginbutton'))
+WebUI.click(findTestObject('Object Repository/02/Page_Facebook/label__loginbutton'))
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/img_TH_avatar_Login'))
+WebUI.click(findTestObject('Object Repository/02/Page_Bluuu -/img_TH_avatar_Login'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/a_logout'))
+WebUI.click(findTestObject('Object Repository/02/Page_Bluuu -/a_logout'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Object Repository/02/Page_Bluuu -/img_TH_avatar_Not-Login'))
 
-WebUI.verifyElementClickable(findTestObject('NO/Page_Bluuu -/button_ Facebook_Login'))
+log = WebUI.getText(findTestObject('Object Repository/02/Page_Bluuu -/h4_'))
 
+if(log=='เข้าสู่ระบบ')
+	{WebUI.closeBrowser()}
+else {KeywordUtil.markFailed()}

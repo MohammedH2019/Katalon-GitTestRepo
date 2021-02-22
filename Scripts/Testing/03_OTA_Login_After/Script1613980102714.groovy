@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_0700 (1)'))
 'ระบุสถานที่'
 WebUI.setText(findTestObject('Object Repository/Page_Bluuu/input____BVID__185 (1)'), 'to')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Bluuu/div_Town in Town Village (1)'))
 
@@ -75,7 +75,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook/input__pa
 
 WebUI.click(findTestObject('Object Repository/Page_Facebook/label__loginbutton'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_Bluuu/button__1 (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_/div_'))
 
