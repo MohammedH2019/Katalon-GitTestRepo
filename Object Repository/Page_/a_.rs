@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2</name>
+   <name>a_</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>e81aba2a-8928-4e06-ac4c-62a606527eab</elementGuidId>
-=======
-   <elementGuidId>ec89a181-b34d-4253-98c4-c88b0be916fe</elementGuidId>
->>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
+   <elementGuidId>2b3354ca-fe63-426e-ac29-009d8c9880ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//a[@id='LiPromptPay_Scrollbar']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.mt-4.p-2.btn-primary.btn-md.btn-block</value>
+         <value>#LiPromptPay_Scrollbar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,90 +21,113 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>button</value>
+      <value>LiPromptPay_Scrollbar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn mt-4 p-2 btn-primary btn-md btn-block</value>
+      <value>nav-link paymentMethod scrollbar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#promtpay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ดูประวัติการชำระเงิน</value>
+      <value>
+                                                                
+                                                                    
+                                                                        
+                                                                    
+                                                                    
+                                                                        พร้อมเพย์
+                                                                    
+                                                                
+                                                            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;px-4 card-container shadow-lg text-center col-xl-5&quot;]/button[@class=&quot;btn mt-4 p-2 btn-primary btn-md btn-block&quot;]</value>
+      <value>id(&quot;LiPromptPay_Scrollbar&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
+      <value>//a[@id='LiPromptPay_Scrollbar']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div/button</value>
+      <value>//li[@id='ctl00_main_LiPromptPay']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การสนทนาของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การชำระเงินของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='จ่ายเต็มจำนวน'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© บริษัท บลูเซอร์วิสเซส จำกัด'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เขตวัฒนา กรุงเทพมหานคร 10260'])[1]/preceding::button[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ดูประวัติการชำระเงิน']/parent::*</value>
+      <value>//a[contains(@href, '#promtpay')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//main/div/div/div/button</value>
+      <value>//li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

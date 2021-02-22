@@ -3,7 +3,11 @@
    <description></description>
    <name>span_</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>80f5a629-b48b-41a2-bc82-26bb16625fa3</elementGuidId>
+=======
+   <elementGuidId>486524f6-8001-4054-9cad-6521a4bb9f8e</elementGuidId>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
    <selectorCollection>
       <entry>
          <key>XPATH</key>

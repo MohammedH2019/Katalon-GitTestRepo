@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2</name>
+   <name>li_4</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>e81aba2a-8928-4e06-ac4c-62a606527eab</elementGuidId>
-=======
-   <elementGuidId>ec89a181-b34d-4253-98c4-c88b0be916fe</elementGuidId>
->>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
+   <elementGuidId>5d6e96a0-6e6f-4b15-8ff8-a12a007c1bf9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//fieldset[@id='__BVID__246']/div/div/div/ul/li[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.mt-4.p-2.btn-primary.btn-md.btn-block</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,90 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>button</value>
+      <value>li</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn mt-4 p-2 btn-primary btn-md btn-block</value>
+      <value>v-dropdown-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ดูประวัติการชำระเงิน</value>
+      <value>4 ชั่วโมง</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;px-4 card-container shadow-lg text-center col-xl-5&quot;]/button[@class=&quot;btn mt-4 p-2 btn-primary btn-md btn-block&quot;]</value>
+      <value>id(&quot;__BVID__246&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/div[@class=&quot;v-dropdown-container&quot;]/ul[1]/li[@class=&quot;v-dropdown-item&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div/button</value>
+      <value>//fieldset[@id='__BVID__246']/div/div/div/ul/li[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การสนทนาของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '&quot;', '', '&quot;', '')])[3]/following::li[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การชำระเงินของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ไม่มีรายการที่เลือกไว้'])[1]/following::li[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© บริษัท บลูเซอร์วิสเซส จำกัด'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ระยะเวลาที่แนะนำ 4 - 5 ชั่วโมง'])[1]/preceding::li[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เขตวัฒนา กรุงเทพมหานคร 10260'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บริการที่ต้องการ'])[1]/preceding::li[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ดูประวัติการชำระเงิน']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='4 ชั่วโมง']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//main/div/div/div/button</value>
+      <value>//div[3]/fieldset/div/div/div/ul/li[4]</value>
    </webElementXpaths>
 </WebElementEntity>

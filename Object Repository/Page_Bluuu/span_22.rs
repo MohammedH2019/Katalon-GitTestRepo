@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button__1_2</name>
+   <name>span_22</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>e81aba2a-8928-4e06-ac4c-62a606527eab</elementGuidId>
-=======
-   <elementGuidId>ec89a181-b34d-4253-98c4-c88b0be916fe</elementGuidId>
->>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
+   <elementGuidId>a40f86df-1db3-41da-9f90-f9fa418c1413</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
+         <value>//fieldset[@id='__BVID__175']/div/div/div/div/div/div/div[2]/div[30]/div/div/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.mt-4.p-2.btn-primary.btn-md.btn-block</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,90 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>tabindex</name>
       <type>Main</type>
-      <value>button</value>
+      <value>0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>วันจันทร์ที่ 22 มีนาคม 2564</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn mt-4 p-2 btn-primary btn-md btn-block</value>
+      <value>vc-day-content vc-focusable vc-font-medium vc-text-sm vc-cursor-pointer focus:vc-font-bold vc-rounded-full</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ดูประวัติการชำระเงิน</value>
+      <value>22</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;px-4 card-container shadow-lg text-center col-xl-5&quot;]/button[@class=&quot;btn mt-4 p-2 btn-primary btn-md btn-block&quot;]</value>
+      <value>id(&quot;__BVID__175&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-calendar-custom vc-container vc-reset vc-min-w-full vc-text-gray-900 vc-bg-white vc-border vc-border-gray-400 vc-rounded-lg&quot;]/div[@class=&quot;vc-w-full vc-relative&quot;]/div[@class=&quot;vc-grid-container grid&quot;]/div[@class=&quot;vc-grid-cell vc-grid-cell-row-1 vc-grid-cell-row--1 vc-grid-cell-col-1 vc-grid-cell-col--1&quot;]/div[@class=&quot;vc-pane&quot;]/div[@class=&quot;vc-grid-container vc-weeks&quot;]/div[@class=&quot;vc-grid-cell vc-grid-cell-row-5 vc-grid-cell-row--3 vc-grid-cell-col-2 vc-grid-cell-col--6&quot;]/div[@class=&quot;vc-day id-2021-03-22 day-22 day-from-end-10 weekday-2 weekday-position-2 weekday-ordinal-4 weekday-ordinal-from-end-2 week-4 week-from-end-2 in-month vc-day-box-center-center&quot;]/div[@class=&quot;vc-h-full&quot;]/span[@class=&quot;vc-day-content vc-focusable vc-font-medium vc-text-sm vc-cursor-pointer focus:vc-font-bold vc-rounded-full&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div/div/button</value>
+      <value>//fieldset[@id='__BVID__175']/div/div/div/div/div/div/div[2]/div[30]/div/div/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การสนทนาของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[23]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การชำระเงินของฉัน'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ศ'])[1]/following::span[23]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© บริษัท บลูเซอร์วิสเซส จำกัด'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/preceding::span[20]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เขตวัฒนา กรุงเทพมหานคร 10260'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ไม่พบผลลัพธ์'])[1]/preceding::span[20]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ดูประวัติการชำระเงิน']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='22']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//main/div/div/div/button</value>
+      <value>//div[30]/div/div/span</value>
    </webElementXpaths>
 </WebElementEntity>

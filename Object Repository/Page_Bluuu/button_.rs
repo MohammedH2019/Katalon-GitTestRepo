@@ -3,6 +3,7 @@
    <description></description>
    <name>button_</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>73bd5c69-e5ac-4fc1-b173-4b1bf511308c</elementGuidId>
    <selectorCollection>
       <entry>
@@ -57,6 +58,62 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[7]</value>
+=======
+   <elementGuidId>9e51ef78-a31b-40cd-b48a-62cf93670613</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.py-2.btn-success.btn-md.btn-block</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn py-2 btn-success btn-md btn-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>จองเลย</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content form-container container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6&quot;]/div[2]/button[@class=&quot;btn py-2 btn-success btn-md btn-block&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

@@ -3,6 +3,7 @@
    <description></description>
    <name>div__arrow-down_1_2</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>647da9df-278c-4d31-a295-6bf763ebae00</elementGuidId>
    <selectorCollection>
       <entry>
@@ -43,6 +44,48 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//fieldset[@id='__BVID__191']/div/div/button/div[2]</value>
+=======
+   <elementGuidId>0683bf32-1e76-4ac7-82e3-81c4fc065794</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__246']/div/div/button/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__246 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__246&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__246']/div/div/button/div[2]</value>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

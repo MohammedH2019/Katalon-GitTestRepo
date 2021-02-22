@@ -3,7 +3,11 @@
    <description></description>
    <name>input__ctl00mainTxtPromptPayName</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>9f794ccd-a3e3-4101-b488-052c2c4fd361</elementGuidId>
+=======
+   <elementGuidId>668212b5-a080-4e09-adb8-51ecff760d07</elementGuidId>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
    <selectorCollection>
       <entry>
          <key>XPATH</key>
