@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_</name>
+   <name>a_OneTimeService</name>
    <tag></tag>
-   <elementGuidId>9e51ef78-a31b-40cd-b48a-62cf93670613</elementGuidId>
+   <elementGuidId>0be26558-a81d-4832-8a58-a48754c3facb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[8]</value>
+         <value>//section[@id='sec-1']/div[2]/div/div[2]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.py-2.btn-success.btn-md.btn-block</value>
+         <value>a.btn.booking-btn.button-booking.btn-success.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,99 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>button</value>
+      <value>/book-one-time</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn py-2 btn-success btn-md btn-block</value>
+      <value>btn booking-btn button-booking btn-success btn-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_self</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>จองเลย</value>
+      <value>
+                จองครั้งเดียว
+              </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content form-container container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6&quot;]/div[2]/button[@class=&quot;btn py-2 btn-success btn-md btn-block&quot;]</value>
+      <value>id(&quot;sec-1&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;home-banner&quot;]/div[@class=&quot;row justify-content-center margin1440&quot;]/div[@class=&quot;mb-3 col-md-6 col-xl-3 col-12&quot;]/a[@class=&quot;btn booking-btn button-booking btn-success btn-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>(//button[@type='button'])[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div[4]/div[2]/div[2]/button</value>
+      <value>//section[@id='sec-1']/div[2]/div/div[2]/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'จองครั้งเดียว')])[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ขอบเขตการบริการ'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='และ'])[1]/following::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='การสนทนาของฉัน'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='© บริษัท บลูเซอร์วิสเซส จำกัด'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='สั่งซื้อแบบแพ็กเกจ'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='เขตวัฒนา กรุงเทพมหานคร 10260'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='แม่บ้านที่เราแนะนำ'])[1]/preceding::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='จองเลย']/parent::*</value>
+      <value>//a[contains(@href, '/book-one-time')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/button</value>
+      <value>//div[2]/div/a</value>
    </webElementXpaths>
 </WebElementEntity>

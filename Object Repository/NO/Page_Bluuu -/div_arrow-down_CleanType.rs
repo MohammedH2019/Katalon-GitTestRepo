@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__arrow-down_1_2_3</name>
+   <name>div_arrow-down_CleanType</name>
    <tag></tag>
    <elementGuidId>2d6dae1f-a256-4ae7-96ee-1c55e64b4975</elementGuidId>
    <selectorCollection>

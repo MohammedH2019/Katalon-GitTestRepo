@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_</name>
+   <name>button_BookNow</name>
    <tag></tag>
-   <elementGuidId>8be1c5fe-5e52-468d-8e5c-d5d03fab8a36</elementGuidId>
+   <elementGuidId>9e51ef78-a31b-40cd-b48a-62cf93670613</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__248']/div/div/div/ul/li[3]</value>
+         <value>(//button[@type='button'])[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>button.btn.py-2.btn-success.btn-md.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,76 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>v-dropdown-item</value>
+      <value>btn py-2 btn-success btn-md btn-block</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ทำความสะอาดและรีดผ้า</value>
+      <value>จองเลย</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__248&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/div[@class=&quot;v-dropdown-container&quot;]/ul[1]/li[@class=&quot;v-dropdown-item&quot;]</value>
+      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content form-container container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6&quot;]/div[2]/button[@class=&quot;btn py-2 btn-success btn-md btn-block&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__248']/div/div/div/ul/li[3]</value>
+      <value>//div[@id='app']/main/div/div[4]/div[2]/div[2]/button</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาด'])[1]/following::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ขอบเขตการบริการ'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '&quot;', '', '&quot;', '')])[4]/following::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='และ'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='รีดผ้า'])[1]/preceding::li[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© บริษัท บลูเซอร์วิสเซส จำกัด'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/preceding::li[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='เขตวัฒนา กรุงเทพมหานคร 10260'])[1]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ทำความสะอาดและรีดผ้า']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='จองเลย']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/fieldset/div/div/div/ul/li[3]</value>
+      <value>//div[2]/div[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

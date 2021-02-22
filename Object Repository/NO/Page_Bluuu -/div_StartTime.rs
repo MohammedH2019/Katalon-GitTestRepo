@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__arrow-down</name>
+   <name>div_StartTime</name>
    <tag></tag>
    <elementGuidId>2ee0695d-7338-4e04-9df1-41cc4e0be3a7</elementGuidId>
    <selectorCollection>

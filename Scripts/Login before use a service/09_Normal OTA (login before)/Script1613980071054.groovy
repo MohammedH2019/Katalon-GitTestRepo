@@ -23,9 +23,9 @@ WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/button_ Facebook_Login'))
+WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/button_ Facebook_Login'))
 
 WebUI.switchToWindowTitle('Facebook')
 
@@ -36,91 +36,69 @@ WebUI.setEncryptedText(findTestObject('NO/Page_Facebook/input__pass'), 'gOP7IdE5
 WebUI.click(findTestObject('NO/Page_Facebook/label__loginbutton'))
 
 'รอให้หน้าเพจโหลดก่อน'
-WebUI.delay(3)
-
-WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://uat.bluuu.co/')
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
-
-WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/button_ Facebook_Login'))
-
-WebUI.switchToWindowTitle('Facebook')
-
-WebUI.setText(findTestObject('Object Repository/NO/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/NO/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
-
-WebUI.click(findTestObject('Object Repository/NO/Page_Facebook/label__loginbutton'))
-
-'รอให้หน้าเพจโหลดก่อน'
-WebUI.delay(3)
+WebUI.delay(7)
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
 'จอง one time'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu -/a_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/a_OneTimeService'))
 
 'เลื่อนเดือน'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/svg__vc-svg-icon'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/svg_NextMonth'))
 
 'วันที่ 22 เดือน 3'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/span_22'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/span_M3D22'))
 
 'เวลาเริ่มงาน'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/div_StartTime'))
 
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_0630'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/li_0630'))
 
 'place'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down_1'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/div_RoomType'))
 
 'condo 2 bedroom'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_ 2'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/li_Condo2Bedroom'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Bluuu/input____BVID__233'), 'paragon')
+WebUI.setText(findTestObject('NO/Page_Bluuu -/input_Location'), 'paragon')
 
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/div_Paragon Cineplex'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/div_Paragon Cineplex'))
 
 'กำหนด duration'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down_1_2'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/div_Duration'))
 
-'4 ชม'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_4'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down_1_2_3'))
+WebUI.click(findTestObject('NO/Page_Bluuu/li_3 hours'))
+
+WebUI.click(findTestObject('NO/Page_Bluuu -/div_arrow-down_CleanType'))
 
 'cleaning and laundry'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/li_Clean-and-Laundry'))
 
 'I got cat'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/label_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/label_IgotCat'))
 
 'I got dog'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/label__1'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/label_IgotDog'))
 
 'ฉันยอมรับ'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/span_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/span_I Accept'))
 
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/button_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/button_BookNow'))
 
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/button__1'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/button_ConfirmBookNow'))
 
 'Promptpay click'
-WebUI.click(findTestObject('Object Repository/Page_/a_'))
+WebUI.click(findTestObject('NO/Page_/a_ClckPromptPay'))
 
 'ใส่ชื่อนามสกุล'
-WebUI.setText(findTestObject('Object Repository/Page_/input__ctl00mainTxtPromptPayName'), 'test')
+WebUI.setText(findTestObject('NO/Page_/input_TxtPromptPayName'), 'test')
 
-WebUI.click(findTestObject('Object Repository/Page_/input__ctl00mainBtnPromptPaySubmit'))
+WebUI.click(findTestObject('NO/Page_/input_BtnPromptPaySubmit'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Bluuu/button__1_2'), 3)
+WebUI.waitForElementClickable(findTestObject('NO/Page_Bluuu -/button_MyPayment'), 3)
 
 'button click หลังจากนี้คงรอแหละ'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/button__1_2'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/button_MyPayment'))
 

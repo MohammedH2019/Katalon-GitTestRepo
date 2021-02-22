@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__arrow-down_1</name>
+   <name>div_RoomType</name>
    <tag></tag>
    <elementGuidId>20f53b1a-0a18-4dc6-92cf-658ebc297aed</elementGuidId>
    <selectorCollection>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__ctl00mainTxtPromptPayName</name>
+   <name>input_TxtPromptPayName</name>
    <tag></tag>
    <elementGuidId>668212b5-a080-4e09-adb8-51ecff760d07</elementGuidId>
    <selectorCollection>

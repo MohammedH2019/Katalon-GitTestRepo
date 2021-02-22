@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_</name>
+   <name>a_ClckPromptPay</name>
    <tag></tag>
-   <elementGuidId>0be26558-a81d-4832-8a58-a48754c3facb</elementGuidId>
+   <elementGuidId>2b3354ca-fe63-426e-ac29-009d8c9880ed</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='sec-1']/div[2]/div/div[2]/div/a</value>
+         <value>//a[@id='LiPromptPay_Scrollbar']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>a.btn.booking-btn.button-booking.btn-success.btn-block</value>
+         <value>#LiPromptPay_Scrollbar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,23 +26,37 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/book-one-time</value>
+      <value>LiPromptPay_Scrollbar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn booking-btn button-booking btn-success btn-block</value>
+      <value>nav-link paymentMethod scrollbar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>target</name>
+      <name>data-toggle</name>
       <type>Main</type>
-      <value>_self</value>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#promtpay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,70 +64,70 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                จองครั้งเดียว
-              </value>
+                                                                
+                                                                    
+                                                                        
+                                                                    
+                                                                    
+                                                                        พร้อมเพย์
+                                                                    
+                                                                
+                                                            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;sec-1&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;home-banner&quot;]/div[@class=&quot;row justify-content-center margin1440&quot;]/div[@class=&quot;mb-3 col-md-6 col-xl-3 col-12&quot;]/a[@class=&quot;btn booking-btn button-booking btn-success btn-block&quot;]</value>
+      <value>id(&quot;LiPromptPay_Scrollbar&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='LiPromptPay_Scrollbar']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='sec-1']/div[2]/div/div[2]/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>(//a[contains(text(),'จองครั้งเดียว')])[2]</value>
+      <value>//li[@id='ctl00_main_LiPromptPay']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='การสนทนาของฉัน'])[1]/following::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='จ่ายเต็มจำนวน'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='สั่งซื้อแบบแพ็กเกจ'])[2]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='แม่บ้านที่เราแนะนำ'])[1]/preceding::a[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/book-one-time')]</value>
+      <value>//a[contains(@href, '#promtpay')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/a</value>
+      <value>//li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

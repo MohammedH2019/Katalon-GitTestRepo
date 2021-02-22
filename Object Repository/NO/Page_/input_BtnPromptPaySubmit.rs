@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input____BVID__233</name>
+   <name>input_BtnPromptPaySubmit</name>
    <tag></tag>
-   <elementGuidId>17cb792f-6482-4e07-adf0-8e35bbecfddb</elementGuidId>
+   <elementGuidId>d156165c-ecc8-4a19-a7ec-7842b061c9ab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='__BVID__233']</value>
+         <value>//input[@id='ctl00_main_BtnPromptPaySubmit']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#__BVID__233</value>
+         <value>#ctl00_main_BtnPromptPaySubmit</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,62 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>ตำแหน่งของคุณ</value>
+      <value>ctl00$main$BtnPromptPaySubmit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>value</name>
       <type>Main</type>
-      <value>off</value>
+      <value>SUBMIT</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$main$BtnPromptPaySubmit&quot;, &quot;&quot;, true, &quot;PromptPay&quot;, &quot;&quot;, false, false))</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>__BVID__233</value>
+      <value>ctl00_main_BtnPromptPaySubmit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-pay btn-block submitbtnpromptpay</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__233&quot;)</value>
+      <value>id(&quot;ctl00_main_BtnPromptPaySubmit&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='__BVID__233']</value>
+      <value>//input[@id='ctl00_main_BtnPromptPaySubmit']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__232']/div/div/div/input</value>
+      <value>//div[@id='ctl00_main_UpdatePromptPay']/div/div/div[2]/div[4]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//fieldset/div/div/div/input</value>
+      <value>//div[5]/div[2]/div/div/div[2]/div[4]/input</value>
    </webElementXpaths>
 </WebElementEntity>

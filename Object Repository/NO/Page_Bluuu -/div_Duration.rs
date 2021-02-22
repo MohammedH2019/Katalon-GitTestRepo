@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div__arrow-down_1_2</name>
+   <name>div_Duration</name>
    <tag></tag>
    <elementGuidId>0683bf32-1e76-4ac7-82e3-81c4fc065794</elementGuidId>
    <selectorCollection>

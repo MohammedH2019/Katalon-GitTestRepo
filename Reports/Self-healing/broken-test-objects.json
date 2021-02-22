@@ -1,3 +1,14 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NO/Page_Bluuu/li_3 hours",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__218\u0027]/div/div/div/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[3]/following::li[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NO/Page_Bluuu/li_3 hours_neighbor.png"
+    }
+  ]
 }
