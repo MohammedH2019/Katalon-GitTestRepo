@@ -3,33 +3,15 @@
    <description></description>
    <name>div_</name>
    <tag></tag>
-   <elementGuidId>1032ec79-ff00-416f-b166-aa97822523bd</elementGuidId>
+   <elementGuidId>2cf22c17-5d1b-4b4c-af75-c3ffe34e789c</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>#LiPromptPay_Scrollbar > div</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='LiPromptPay_Scrollbar']/div</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-                                                                    
-                                                                        
-                                                                    
-                                                                    
-                                                                        พร้อมเพย์
-                                                                    
-                                                                ' or . = '
-                                                                    
-                                                                        
-                                                                    
-                                                                    
-                                                                        พร้อมเพย์
-                                                                    
-                                                                ')]</value>
+         <key>CSS</key>
+         <value>#LiPromptPay_Scrollbar > div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
