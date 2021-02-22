@@ -43,5 +43,7 @@ WebUI.click(findTestObject('NO/Page_Bluuu -/a_logout'))
 
 WebUI.click(findTestObject('NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
 
-WebUI.verifyElementClickable(findTestObject('NO/Page_Bluuu -/button_ Facebook_Login'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/button_ Facebook_Login'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.closeBrowser()
 
