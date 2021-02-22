@@ -24,10 +24,10 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 'จอง1ครั้ง'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu -/a_'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/a_OneTimeService'))
 
 '28 กพ'
-WebUI.click(findTestObject('Object Repository/Page_Bluuu/span_28 (1)'))
+WebUI.click(findTestObject('NO/Page_Bluuu -/span_28'))
 
 'เวลาเริ่มงาน'
 WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down (1)'))
@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Page_Bluuu/li_0700 (1)'))
 'ระบุสถานที่'
 WebUI.setText(findTestObject('Object Repository/Page_Bluuu/input____BVID__185 (1)'), 'to')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_Bluuu/div_Town in Town Village (1)'))
 
@@ -75,7 +75,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Facebook/input__pa
 
 WebUI.click(findTestObject('Object Repository/Page_Facebook/label__loginbutton'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_Bluuu/button__1 (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_/div_'))
 

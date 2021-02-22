@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_</name>
+   <name>div_ (1)</name>
    <tag></tag>
-   <elementGuidId>1032ec79-ff00-416f-b166-aa97822523bd</elementGuidId>
+   <elementGuidId>5ebbfbba-7497-40ed-a35d-100562be3596</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -12,24 +12,6 @@
       <entry>
          <key>XPATH</key>
          <value>//a[@id='LiPromptPay_Scrollbar']/div</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = '
-                                                                    
-                                                                        
-                                                                    
-                                                                    
-                                                                        พร้อมเพย์
-                                                                    
-                                                                ' or . = '
-                                                                    
-                                                                        
-                                                                    
-                                                                    
-                                                                        พร้อมเพย์
-                                                                    
-                                                                ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
