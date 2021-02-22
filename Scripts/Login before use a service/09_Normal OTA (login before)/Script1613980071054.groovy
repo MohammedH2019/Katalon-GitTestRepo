@@ -23,17 +23,17 @@ WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/img_TH_avatar_Not-Login'))
 
-WebUI.click(findTestObject('Object Repository/NO/Page_Bluuu -/button_ Facebook_Login'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_ Facebook_Login'))
 
 WebUI.switchToWindowTitle('Facebook')
 
-WebUI.setText(findTestObject('NO/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+WebUI.setText(findTestObject('Used/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
 
-WebUI.setEncryptedText(findTestObject('NO/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+WebUI.setEncryptedText(findTestObject('Used/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
 
-WebUI.click(findTestObject('NO/Page_Facebook/label__loginbutton'))
+WebUI.click(findTestObject('Used/Page-Facebook/label__loginbutton'))
 
 'รอให้หน้าเพจโหลดก่อน'
 WebUI.delay(7)
@@ -41,64 +41,64 @@ WebUI.delay(7)
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
 'จอง one time'
-WebUI.click(findTestObject('NO/Page_Bluuu -/a_OneTimeService'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/a_OneTimeService'))
 
 'เลื่อนเดือน'
-WebUI.click(findTestObject('NO/Page_Bluuu -/svg_NextMonth'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/svg_NextMonth'))
 
 'วันที่ 22 เดือน 3'
-WebUI.click(findTestObject('NO/Page_Bluuu -/span_M3D22'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/span_M3D22'))
 
 'เวลาเริ่มงาน'
-WebUI.click(findTestObject('NO/Page_Bluuu -/div_StartTime'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_StartTime'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/li_0630'))
+WebUI.click(findTestObject('Used/Page_Bluuu/li_0630'))
 
 'place'
-WebUI.click(findTestObject('NO/Page_Bluuu -/div_RoomType'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_RoomType'))
 
 'condo 2 bedroom'
-WebUI.click(findTestObject('NO/Page_Bluuu -/li_Condo2Bedroom'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Condo2Bedroom'))
 
-WebUI.setText(findTestObject('NO/Page_Bluuu -/input_Location'), 'paragon')
+WebUI.setText(findTestObject('Used/zElement-Bluuu/input_Location'), 'paragon')
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/div_Paragon Cineplex'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_Paragon Cineplex'))
 
 'กำหนด duration'
-WebUI.click(findTestObject('NO/Page_Bluuu -/div_Duration'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_Duration'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('NO/Page_Bluuu/li_3 hours'))
+WebUI.click(findTestObject('Used/Page_Bluuu/li_3 hours'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/div_arrow-down_CleanType'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_arrow-down_CleanType'))
 
 'cleaning and laundry'
-WebUI.click(findTestObject('NO/Page_Bluuu -/li_Clean-and-Laundry'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Clean-and-Laundry'))
 
 'I got cat'
-WebUI.click(findTestObject('NO/Page_Bluuu -/label_IgotCat'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/label_IgotCat'))
 
 'I got dog'
-WebUI.click(findTestObject('NO/Page_Bluuu -/label_IgotDog'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/label_IgotDog'))
 
 'ฉันยอมรับ'
-WebUI.click(findTestObject('NO/Page_Bluuu -/span_I Accept'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/span_I Accept'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/button_BookNow'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_BookNow'))
 
-WebUI.click(findTestObject('NO/Page_Bluuu -/button_ConfirmBookNow'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_ConfirmBookNow'))
 
 'Promptpay click'
-WebUI.click(findTestObject('NO/Page_/a_ClckPromptPay'))
+WebUI.click(findTestObject('Used/Page-Payment/a_ClckPromptPay'))
 
 'ใส่ชื่อนามสกุล'
-WebUI.setText(findTestObject('NO/Page_/input_TxtPromptPayName'), 'test')
+WebUI.setText(findTestObject('Used/Page-Payment/input_TxtPromptPayName'), 'test')
 
-WebUI.click(findTestObject('NO/Page_/input_BtnPromptPaySubmit'))
+WebUI.click(findTestObject('Used/Page-Payment/input_BtnPromptPaySubmit'))
 
-WebUI.waitForElementClickable(findTestObject('NO/Page_Bluuu -/button_MyPayment'), 3)
+WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayment'), 360)
 
 'button click หลังจากนี้คงรอแหละ'
-WebUI.click(findTestObject('NO/Page_Bluuu -/button_MyPayment'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
 
