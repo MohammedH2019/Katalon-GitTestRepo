@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__arrow-down_1_2_3</name>
+   <tag></tag>
+<<<<<<< HEAD
+   <elementGuidId>d174392a-4b60-4bfc-b0bc-a05105a6c6e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__193']/div/div/button/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__193 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__193&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__193']/div/div/button/div[2]</value>
+=======
+   <elementGuidId>2d6dae1f-a256-4ae7-96ee-1c55e64b4975</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__248']/div/div/button/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#__BVID__248 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>arrow-down</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__248&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//fieldset[@id='__BVID__248']/div/div/button/div[2]</value>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/fieldset/div/div/button/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>
