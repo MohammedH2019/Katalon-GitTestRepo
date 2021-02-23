@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+package,Chrome 88.0.4324.182,,,2021-02-23 10:49:05,2021-02-23 10:50:01,56.358s,FAILED
+,,,,,,,
+Test Cases/Login before use a service/13_Normal MP,Chrome 88.0.4324.182,,,2021-02-23 10:49:07,2021-02-23 10:50:01,54.155s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-23 10:49:09,2021-02-23 10:49:13,4.023s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-23 10:49:13,2021-02-23 10:49:13,0.163s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:13,2021-02-23 10:49:53,40.339s,PASSED
+"click(findTestObject(""Object Repository/Temp/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1""))",Chrome 88.0.4324.182,,,2021-02-23 10:49:53,2021-02-23 10:49:54,0.619s,PASSED
+"click(findTestObject(""Object Repository/Temp/Page_Bluuu -/button_ Facebook""))",Chrome 88.0.4324.182,,,2021-02-23 10:49:54,2021-02-23 10:49:54,0.530s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:54,2021-02-23 10:49:57,2.564s,PASSED
+"setText(findTestObject(""Object Repository/Temp/Page_Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:57,2021-02-23 10:49:58,0.829s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Temp/Page_Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-23 10:49:58,2021-02-23 10:49:58,0.586s,PASSED
+"click(findTestObject(""Object Repository/Temp/Page_Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-23 10:49:58,2021-02-23 10:49:59,0.424s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:59,2021-02-23 10:49:59,0.073s,PASSED
+"click(findTestObject(""Object Repository/Temp/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,เข้าไปจองแบบ package,,2021-02-23 10:49:59,2021-02-23 10:50:01,2.534s,FAILED

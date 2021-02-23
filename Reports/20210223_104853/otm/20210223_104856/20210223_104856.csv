@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+otm,Chrome 88.0.4324.182,,,2021-02-23 10:49:05,2021-02-23 10:50:07,1m - 1.919s,FAILED
+,,,,,,,
+Test Cases/Login before use a service/11_Normal OTM (login before),Chrome 88.0.4324.182,,,2021-02-23 10:49:07,2021-02-23 10:49:54,46.852s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-23 10:49:08,2021-02-23 10:49:12,4.678s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:12,2021-02-23 10:49:51,39.058s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-23 10:49:51,2021-02-23 10:49:52,0.169s,PASSED
+"click(findTestObject(""Object Repository/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-23 10:49:52,2021-02-23 10:49:54,1.885s,FAILED
+,,,,,,,
+Test Cases/Login before use a service/12_OTM with Promotion (login before),Chrome 88.0.4324.182,,,2021-02-23 10:49:54,2021-02-23 10:50:07,12.982s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-23 10:49:54,2021-02-23 10:49:56,2.243s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-23 10:49:56,2021-02-23 10:50:05,8.434s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-23 10:50:05,2021-02-23 10:50:05,0.290s,PASSED
+"click(findTestObject(""Object Repository/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-23 10:50:05,2021-02-23 10:50:07,1.432s,FAILED

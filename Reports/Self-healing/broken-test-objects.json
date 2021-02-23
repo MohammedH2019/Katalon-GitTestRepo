@@ -129,6 +129,146 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Page_Bluuu/li_2 hours_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/div_RoomType",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__244\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_RoomType_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/input_Location",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__233\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Location_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/div_Clean-Type",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__192\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/div_Clean-Type_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/li_Cleaning",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__192\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[6]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/li_Cleaning_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/label_IgotDog",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__195\u0027]/div[2]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีแมว\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/label_IgotDog_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/div_Duration",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__487\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/div_Duration_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/li_2 hours",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__487\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/li_2 hours_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/div_How-many-Time",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__489\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/div_How-many-Time_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/li_4Times",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__489\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/li_4Times_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/div_Repeated-Day",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__493\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[4]/div/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/div_Repeated-Day_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/li_Tuesday",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__493\u0027]/div/div/div/ul/li[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027จันทร์\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/li_Tuesday_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/div_Each-Time",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__495\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div[4]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/div_Each-Time_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Package-and-Date/li_1900 - 2100",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__495\u0027]/div/div/div/ul/li[28]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[4]/following::li[27]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/Package-and-Date/li_1900 - 2100_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/span_I Accept",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/main/div/div[4]/div[2]/div[2]/div/div/label/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีสุนัข\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/span_I Accept_neighbor.png"
     }
   ]
 }

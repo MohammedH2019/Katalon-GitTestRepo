@@ -23,17 +23,17 @@ WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/img_TH_avatar_Not-Login'))
 
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/button_ Facebook_Login'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_ Facebook_Login'))
 
 WebUI.switchToWindowTitle('Facebook')
 
-WebUI.setText(findTestObject('Object Repository/Used/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+WebUI.setText(findTestObject('Used/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Used/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+WebUI.setEncryptedText(findTestObject('Used/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
 
-WebUI.click(findTestObject('Object Repository/Used/Page-Facebook/label__loginbutton'))
+WebUI.click(findTestObject('Used/Page-Facebook/label__loginbutton'))
 
 'รอให้หน้าเพจโหลดก่อน'
 WebUI.delay(7)
@@ -41,28 +41,28 @@ WebUI.delay(7)
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
 'จอง one time'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/a_OneTimeService'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/a_OneTimeService'))
 
 'place'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/div_RoomType'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_RoomType'))
 
 'condo 2 bedroom'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/li_Condo2Bedroom'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Condo2Bedroom'))
 
-WebUI.setText(findTestObject('Object Repository/zElement-Bluuu/input_Location'), 'paragon')
+WebUI.setText(findTestObject('Used/zElement-Bluuu/input_Location'), 'paragon')
 
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/div_Paragon Cineplex'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_Paragon Cineplex'))
 
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/div_arrow-down_CleanType'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_arrow-down_CleanType'))
 
 'cleaning and laundry'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/li_Clean-and-Laundry'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Clean-and-Laundry'))
 
 'I got cat'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/label_IgotCat'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/label_IgotCat'))
 
 'I got dog'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/label_IgotDog'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/label_IgotDog'))
 
 //เลือกแม่บ้านWebUI.click(findTestObject('Used/Picking-Maid/a_Pick-OneTimeManual'))
 'Click เลือกแม่บ้านด้วยตนเอง'
@@ -74,6 +74,8 @@ WebUI.click(findTestObject('Used/Picking-Maid/button_Picking-maid'))
 'รูป avatar P\'Mark'
 WebUI.click(findTestObject('Used/Picking-Maid/img_PMark-Avatar'))
 
+WebUI.waitForElementClickable(findTestObject('Used/Picking-Maid/button_OneTime-PMark'), 60)
+
 'กดจองครั้งเดียว'
 WebUI.click(findTestObject('Used/Picking-Maid/button_OneTime-PMark'))
 
@@ -84,7 +86,7 @@ WebUI.click(findTestObject('Used/zElement-Bluuu/svg_NextMonth'))
 WebUI.click(findTestObject('Used/zElement-Bluuu/span_M3D22'))
 
 'เวลาเริ่มงาน'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/div_StartTime'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_StartTime'))
 
 WebUI.delay(3)
 
@@ -92,7 +94,7 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Used/Page_Bluuu/li_0700'))
 
 'กำหนด duration'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/div_Duration'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_Duration'))
 
 WebUI.delay(3)
 
@@ -100,10 +102,10 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Used/Page_Bluuu/li_2 hours'))
 
 'ฉันยอมรับ'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/span_I Accept'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/span_I Accept'))
 
 'ไปหน้า Booking Summary'
-WebUI.click(findTestObject('Object Repository/zElement-Bluuu/button_BookNow'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_BookNow'))
 
 WebUI.click(findTestObject('Used/zElement-Bluuu/button_ConfirmBookNow'))
 

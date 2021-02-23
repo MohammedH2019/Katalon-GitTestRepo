@@ -17,4 +17,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login before use a service/13_Normal MP</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0e22409c-de53-43c5-ad07-280c95a8a601</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login before use a service/14_MP with Promotion</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -17,3 +17,110 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl('https://uat.bluuu.co/')
+
+WebUI.click(findTestObject('Used/zElement-Bluuu/img_TH_avatar_Not-Login'))
+
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_ Facebook_Login'))
+
+WebUI.switchToWindowTitle('Facebook')
+
+WebUI.setText(findTestObject('Used/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+
+WebUI.setEncryptedText(findTestObject('Used/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+
+WebUI.click(findTestObject('Used/Page-Facebook/label__loginbutton'))
+
+WebUI.delay(7)
+
+WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
+
+'เข้าไปจองแบบ package'
+WebUI.click(findTestObject('Used/Package-and-Date/a_Package'))
+
+'รูปแบบของสถานที่ทำงาน'
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_RoomType'))
+
+'คอนโด 4 ห้องนอนขึ้นไป'
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Condo4Bedroom'))
+
+WebUI.setText(findTestObject('Used/Package-and-Date/input_Location'), 'House of ')
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('Used/Package-and-Date/div_House of RAMS  53'))
+
+'บริการที่ต้องการ'
+WebUI.click(findTestObject('Used/Package-and-Date/div_Clean-Type'))
+
+'เลือกทำความสะอาด'
+WebUI.click(findTestObject('Used/Package-and-Date/li_Cleaning'))
+
+'ฉันมีหมา'
+WebUI.click(findTestObject('Used/Package-and-Date/label_IgotDog'))
+
+'เลือกแม่บ้าน'
+WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Go-for-Maid'))
+
+'p\'Mark avatar'
+WebUI.click(findTestObject('Used/Package-and-Date/img_MP-PMark-Avatar'))
+
+WebUI.delay(5)
+
+'จองแบบ package'
+WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Picking-Maid'))
+
+'จำนวนชั่วโมง'
+WebUI.click(findTestObject('Used/Package-and-Date/div_Duration'))
+
+'2 hrs'
+WebUI.click(findTestObject('Used/Package-and-Date/li_2 hours'))
+
+'จำนวนครั้ง'
+WebUI.click(findTestObject('Used/Package-and-Date/div_How-many-Time'))
+
+'4 times'
+WebUI.click(findTestObject('Used/Package-and-Date/li_4Times'))
+
+'วันที่ต้องการจ้างซ้ำ'
+WebUI.click(findTestObject('Used/Package-and-Date/div_Repeated-Day'))
+
+'วันอังคาร'
+WebUI.click(findTestObject('Used/Package-and-Date/li_Tuesday'))
+
+'เวลาในแต่ละครั้ง'
+WebUI.click(findTestObject('Used/Package-and-Date/div_Each-Time'))
+
+WebUI.click(findTestObject('Temp/Page_Bluuu/li_0600 - 0800'))
+
+'ฉันยอมรับ'
+WebUI.click(findTestObject('Used/zElement-Bluuu/span_I Accept'))
+
+'ไปหน้า Booking Summary'
+WebUI.click(findTestObject('Used/Package-and-Date/button_Booknow'))
+
+'ใส่รหัสโปรโมชัน'
+WebUI.setText(findTestObject('Used/zElement-Bluuu/input_Promotion-Code'), 'WELCOME30')
+
+'ใช้งานคูปอง'
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_Use-Promotion-Code'))
+
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_Confirming-From-Promotion'))
+
+'Promptpay click'
+WebUI.click(findTestObject('Used/Page-Payment/a_ClckPromptPay'))
+
+'ใส่ชื่อนามสกุล'
+WebUI.setText(findTestObject('Used/Page-Payment/input_TxtPromptPayName'), 'test')
+
+WebUI.click(findTestObject('Used/Page-Payment/input_BtnPromptPaySubmit'))
+
+WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayment'), 360)
+
+'button click หลังจากนี้คงรอแหละ'
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
+
