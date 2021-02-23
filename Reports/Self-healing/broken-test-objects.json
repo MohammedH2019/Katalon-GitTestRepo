@@ -269,6 +269,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/span_I Accept_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/span_M3D23",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__97\u0027]/div/div/div/div/div/div/div[2]/div[31]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[24]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/span_M3D23_neighbor.png"
     }
   ]
 }

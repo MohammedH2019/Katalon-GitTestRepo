@@ -71,7 +71,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Used/Page_Bluuu/li_3 hours'))
 
-WebUI.click(findTestObject('null'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_arrow-down_CleanType'))
 
 'cleaning and laundry'
 WebUI.click(findTestObject('Used/zElement-Bluuu/li_Clean-and-Laundry'))
