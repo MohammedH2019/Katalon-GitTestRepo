@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_I Accept</name>
+   <name>li_</name>
    <tag></tag>
-   <elementGuidId>344bff80-290a-4f2f-ab29-3e18e2899e63</elementGuidId>
+   <elementGuidId>bec0253e-844d-4156-98db-39e44267dd54</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>label.custom-control-label > span</value>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__247']/div/div/div/ul/li[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/main/div/div[4]/div[2]/div[2]/div/div/label/span</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,69 +21,76 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>li</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v-dropdown-item</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>ฉันยอมรับ</value>
+      <value>ทำความสะอาด</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content form-container container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-6&quot;]/div[2]/div[1]/div[@class=&quot;my-2 custom-control custom-checkbox&quot;]/label[@class=&quot;custom-control-label&quot;]/span[1]</value>
+      <value>id(&quot;__BVID__247&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/div[@class=&quot;v-dropdown-container&quot;]/ul[1]/li[@class=&quot;v-dropdown-item&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/main/div/div[4]/div[2]/div[2]/div/div/label/span</value>
+      <value>//fieldset[@id='__BVID__247']/div/div/div/ul/li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีสุนัข'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '&quot;', '', '&quot;', '')])[6]/following::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ไม่มีรายการที่เลือกไว้'])[1]/following::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ข้อตกลงเกี่ยวกับเงื่อนไขการใช้งาน'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาดและรีดผ้า'])[1]/preceding::li[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='และ'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='รีดผ้า'])[1]/preceding::li[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='ฉันยอมรับ']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='ทำความสะอาด']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//label/span</value>
+      <value>//div[3]/fieldset/div/div/div/ul/li[2]</value>
    </webElementXpaths>
 </WebElementEntity>

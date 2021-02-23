@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>img_TH_avatar_Not-Login</name>
+   <name>div__arrow-down_1_2_3_4_5</name>
    <tag></tag>
-   <elementGuidId>ac429216-88a5-4286-84a6-494c50d537ec</elementGuidId>
+   <elementGuidId>9021b805-35c9-4877-80f6-b7e91b5152b7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>img.avatar.order-3.order-xl-4.ml-4.mt-1</value>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__495']/div/div/button/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/header/nav/div/img</value>
+         <key>CSS</key>
+         <value>#__BVID__495 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,41 +21,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>src</name>
-      <type>Main</type>
-      <value>/img/preview-upload_2.73ddf3ba.png</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>avatar order-3 order-xl-4 ml-4 mt-1</value>
+      <value>arrow-down</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/header[1]/nav[@class=&quot;navbar navbar-light navbar-expand-xl&quot;]/div[@class=&quot;container&quot;]/img[@class=&quot;avatar order-3 order-xl-4 ml-4 mt-1&quot;]</value>
+      <value>id(&quot;__BVID__495&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/header/nav/div/img</value>
+      <value>//fieldset[@id='__BVID__495']/div/div/button/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/img</value>
+      <value>//div[2]/div/div[4]/div[2]/fieldset/div/div/button/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

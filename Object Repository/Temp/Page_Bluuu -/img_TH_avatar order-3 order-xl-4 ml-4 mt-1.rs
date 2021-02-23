@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_StartTime</name>
+   <name>img_TH_avatar order-3 order-xl-4 ml-4 mt-1</name>
    <tag></tag>
-   <elementGuidId>b1683a5a-5550-48f2-abe5-88668215fef0</elementGuidId>
+   <elementGuidId>af699246-cf28-42df-bfc2-8c0f1f20ff36</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.arrow-down</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/header/nav/div/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__172']/div/div[2]/button/div[2]</value>
+         <key>CSS</key>
+         <value>img.avatar.order-3.order-xl-4.ml-4.mt-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,34 +21,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>img</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/img/preview-upload_2.73ddf3ba.png</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>arrow-down</value>
+      <value>avatar order-3 order-xl-4 ml-4 mt-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__172&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+      <value>id(&quot;app&quot;)/header[1]/nav[@class=&quot;navbar navbar-light navbar-expand-xl&quot;]/div[@class=&quot;container&quot;]/img[@class=&quot;avatar order-3 order-xl-4 ml-4 mt-1&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__172']/div/div[2]/button/div[2]</value>
+      <value>//div[@id='app']/header/nav/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/div[2]</value>
+      <value>//div/img</value>
    </webElementXpaths>
 </WebElementEntity>

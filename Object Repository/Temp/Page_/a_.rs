@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_M3D23</name>
+   <name>a_</name>
    <tag></tag>
-   <elementGuidId>01050ed6-48ba-4db0-8021-69f21e69731f</elementGuidId>
+   <elementGuidId>361e2f81-4028-4b62-8c64-2e6cdf546b48</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@id='LiPromptPay_Scrollbar']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__97']/div/div/div/div/div/div/div[2]/div[31]/div/div/span</value>
+         <key>CSS</key>
+         <value>#LiPromptPay_Scrollbar</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,90 +21,113 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
+      <name>id</name>
       <type>Main</type>
-      <value>0</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-label</name>
-      <type>Main</type>
-      <value>วันอังคารที่ 23 มีนาคม 2564</value>
+      <value>LiPromptPay_Scrollbar</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>vc-day-content vc-focusable vc-font-medium vc-text-sm vc-cursor-pointer focus:vc-font-bold vc-rounded-full</value>
+      <value>nav-link paymentMethod scrollbar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-toggle</name>
+      <type>Main</type>
+      <value>tab</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#promtpay</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>tab</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>23</value>
+      <value>
+                                                                
+                                                                    
+                                                                        
+                                                                    
+                                                                    
+                                                                        พร้อมเพย์
+                                                                    
+                                                                
+                                                            </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__97&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-calendar-custom vc-container vc-reset vc-min-w-full vc-text-gray-900 vc-bg-white vc-border vc-border-gray-400 vc-rounded-lg&quot;]/div[@class=&quot;vc-w-full vc-relative&quot;]/div[@class=&quot;vc-grid-container grid&quot;]/div[@class=&quot;vc-grid-cell vc-grid-cell-row-1 vc-grid-cell-row--1 vc-grid-cell-col-1 vc-grid-cell-col--1&quot;]/div[@class=&quot;vc-pane&quot;]/div[@class=&quot;vc-grid-container vc-weeks&quot;]/div[@class=&quot;vc-grid-cell vc-grid-cell-row-5 vc-grid-cell-row--3 vc-grid-cell-col-3 vc-grid-cell-col--5&quot;]/div[@class=&quot;vc-day id-2021-03-23 day-23 day-from-end-9 weekday-3 weekday-position-3 weekday-ordinal-4 weekday-ordinal-from-end-2 week-4 week-from-end-2 in-month vc-day-box-center-center&quot;]/div[@class=&quot;vc-h-full&quot;]/span[@class=&quot;vc-day-content vc-focusable vc-font-medium vc-text-sm vc-cursor-pointer focus:vc-font-bold vc-rounded-full&quot;]</value>
+      <value>id(&quot;LiPromptPay_Scrollbar&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@id='LiPromptPay_Scrollbar']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__97']/div/div/div/div/div/div/div[2]/div[31]/div/div/span</value>
+      <value>//li[@id='ctl00_main_LiPromptPay']/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[24]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ศ'])[1]/following::span[24]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='จ่ายเต็มจำนวน'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/preceding::span[20]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[2]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='ไม่พบผลลัพธ์'])[1]/preceding::span[20]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='23']/parent::*</value>
+      <value>//a[contains(@href, '#promtpay')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[31]/div/div/span</value>
+      <value>//li[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>

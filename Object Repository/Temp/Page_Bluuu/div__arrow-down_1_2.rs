@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Duration</name>
+   <name>div__arrow-down_1_2</name>
    <tag></tag>
-   <elementGuidId>175a7cf2-b350-4eab-aaf8-86b9ccd67948</elementGuidId>
+   <elementGuidId>2d6458ba-37c8-4998-a631-4e65ff316144</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#__BVID__246 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__487']/div/div/button/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__246']/div/div/button/div[2]</value>
+         <key>CSS</key>
+         <value>div.arrow-down</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,20 +35,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__246&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+      <value>id(&quot;__BVID__487&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__246']/div/div/button/div[2]</value>
+      <value>//fieldset[@id='__BVID__487']/div/div/button/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/fieldset/div/div/button/div[2]</value>
+      <value>//button/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

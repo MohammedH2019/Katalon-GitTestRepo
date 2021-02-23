@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_arrow-down_CleanType</name>
+   <name>div__arrow-down_1_2_3_4</name>
    <tag></tag>
-   <elementGuidId>ee3b2f97-6dde-4227-9087-e2f867a3d4ad</elementGuidId>
+   <elementGuidId>ba8a3722-7de6-4182-a749-7392d20c65d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#__BVID__248 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
+         <key>XPATH</key>
+         <value>//fieldset[@id='__BVID__493']/div/div/button/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//fieldset[@id='__BVID__248']/div/div/button/div[2]</value>
+         <key>CSS</key>
+         <value>#__BVID__493 > div.bv-no-focus-ring > div.v-select.custom-v-select > button.v-select-toggle > div.arrow-down</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -35,20 +35,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__248&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
+      <value>id(&quot;__BVID__493&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-select custom-v-select&quot;]/button[@class=&quot;v-select-toggle&quot;]/div[@class=&quot;arrow-down&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__248']/div/div/button/div[2]</value>
+      <value>//fieldset[@id='__BVID__493']/div/div/button/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/fieldset/div/div/button/div[2]</value>
+      <value>//div[2]/div/div[4]/div/fieldset/div/div/button/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>

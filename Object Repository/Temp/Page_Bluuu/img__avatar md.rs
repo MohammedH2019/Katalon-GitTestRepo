@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Promotion-Code</name>
+   <name>img__avatar md</name>
    <tag></tag>
-   <elementGuidId>8a535a92-aec4-4476-ac23-381770da73dd</elementGuidId>
+   <elementGuidId>35131540-b7e8-425f-b49d-33881203ddb0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#__BVID__340</value>
+         <key>XPATH</key>
+         <value>//div[@id='app']/main/div/div[3]/div[4]/div/div/div/div/div/div/img</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='__BVID__340']</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,62 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>img</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>src</name>
       <type>Main</type>
-      <value>text</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>ใช้คูปอง</value>
+      <value>https://storage.googleapis.com/bluuu-uat-profile-images/U136cfa87ec8ffaa902c985c18ee7a330.jpg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>__BVID__340</value>
+      <value>avatar md</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__340&quot;)</value>
+      <value>id(&quot;app&quot;)/main[1]/div[@class=&quot;container-content container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6 col-lg-4 col-xl-3 col-12&quot;]/div[@class=&quot;card-maid d-flex flex-column justify-content-between&quot;]/div[1]/div[1]/div[@class=&quot;maid-detail maid-detail-top mb-3 mb-md-0&quot;]/div[@class=&quot;maid-detail-img&quot;]/div[@class=&quot;size-md&quot;]/img[@class=&quot;avatar md&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//input[@id='__BVID__340']</value>
+      <value>//div[@id='app']/main/div/div[3]/div[4]/div/div/div/div/div/div/img</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:img</name>
       <type>Main</type>
-      <value>//fieldset[@id='__BVID__339']/div/div/input</value>
+      <value>//img[contains(@src,'https://storage.googleapis.com/bluuu-uat-profile-images/U136cfa87ec8ffaa902c985c18ee7a330.jpg')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
+      <value>//div[4]/div/div/div/div/div/div/img</value>
    </webElementXpaths>
 </WebElementEntity>

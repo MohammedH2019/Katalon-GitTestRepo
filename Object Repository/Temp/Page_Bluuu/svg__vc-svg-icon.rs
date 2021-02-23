@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>svg_NextMonth</name>
+   <name>svg__vc-svg-icon</name>
    <tag></tag>
-   <elementGuidId>f38f9141-e062-4398-a941-3cdc373880fc</elementGuidId>
+   <elementGuidId>d01c80e7-4ce5-4073-81f0-92f2a592f584</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::*[name()='svg'][2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -55,7 +56,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__BVID__175&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-calendar-custom vc-container vc-reset vc-min-w-full vc-text-gray-900 vc-bg-white vc-border vc-border-gray-400 vc-rounded-lg&quot;]/div[@class=&quot;vc-w-full vc-relative&quot;]/div[@class=&quot;vc-arrows-container title-center&quot;]/div[@class=&quot;vc-flex vc-justify-center vc-items-center vc-cursor-pointer vc-select-none vc-pointer-events-auto vc-text-gray-600 vc-rounded vc-border-2 vc-border-transparent hover:vc-opacity-50 hover:vc-bg-gray-300 focus:vc-border-gray-300&quot;]/svg[@class=&quot;vc-svg-icon&quot;]</value>
+      <value>id(&quot;__BVID__176&quot;)/div[@class=&quot;bv-no-focus-ring&quot;]/div[@class=&quot;v-calendar-custom vc-container vc-reset vc-min-w-full vc-text-gray-900 vc-bg-white vc-border vc-border-gray-400 vc-rounded-lg&quot;]/div[@class=&quot;vc-w-full vc-relative&quot;]/div[@class=&quot;vc-arrows-container title-center&quot;]/div[@class=&quot;vc-flex vc-justify-center vc-items-center vc-cursor-pointer vc-select-none vc-pointer-events-auto vc-text-gray-600 vc-rounded vc-border-2 vc-border-transparent hover:vc-opacity-50 hover:vc-bg-gray-300 focus:vc-border-gray-300&quot;]/svg[@class=&quot;vc-svg-icon&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
