@@ -132,6 +132,7 @@
     },
     {
       "approved": true,
+<<<<<<< HEAD
       "testObjectId": "Object Repository/Used/zElement-Bluuu/div_RoomType",
       "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__244\u0027]/div/div/button/div[2]",
       "brokenLocatorMethod": "XPATH",
@@ -279,6 +280,25 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Used/zElement-Bluuu/span_M3D23_neighbor.png"
+=======
+      "testObjectId": "Object Repository/P_USE/19/Page_Bluuu/p_ 500",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__199\u0027]/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีสุนัข\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/P_USE/19/Page_Bluuu/p_ 500_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/19/Page_Bluuu/textarea____BVID__170",
+      "brokenLocator": "//textarea[@id\u003d\u0027__BVID__170\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/P_USE/19/Page_Bluuu/textarea____BVID__170_position.png"
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
     }
   ]
 }
