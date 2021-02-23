@@ -9,6 +9,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/NO/Page_Bluuu/li_3 hours_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/NO/Page_Bluuu -/button_MyPayment",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027การสนทนาของฉัน\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/NO/Page_Bluuu -/button_MyPayment_neighbor.png"
     }
   ]
 }
