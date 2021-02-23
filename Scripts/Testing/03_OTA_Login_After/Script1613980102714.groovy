@@ -24,10 +24,10 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 'จอง1ครั้ง'
-WebUI.click(findTestObject('NO/Page_Bluuu -/a_OneTimeService'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/a_OneTimeService'))
 
 '28 กพ'
-WebUI.click(findTestObject('NO/Page_Bluuu -/span_28'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/span_28'))
 
 'เวลาเริ่มงาน'
 WebUI.click(findTestObject('Object Repository/Page_Bluuu/div__arrow-down (1)'))
