@@ -109,3 +109,20 @@ WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayme
 'button click หลังจากนี้คงรอแหละ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
 
+get_dura = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura'))
+
+get_start = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'))
+
+if (get_dura == 'ครั้งเดียว: 3 ชม.') {
+	a = 1
+}
+
+if (get_start == '23 มี.ค. 2021, 06:30') {
+	b = 1
+}
+
+if ((a + b) == 2) {
+	WebUI.closeBrowser()
+} else {
+	KeywordUtil.markFailed('')
+}

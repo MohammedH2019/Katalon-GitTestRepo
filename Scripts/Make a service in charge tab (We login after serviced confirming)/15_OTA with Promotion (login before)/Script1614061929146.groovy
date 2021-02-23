@@ -37,6 +37,8 @@ WebUI.sendKeys(findTestObject('Object Repository/By Case/15/Page_Facebook/input_
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Object Repository/By Case/15/Page_Bluuu -/a_'))
 
 WebUI.click(findTestObject('Object Repository/By Case/15/Page_  Bluuu -/a_'))
@@ -87,11 +89,25 @@ WebUI.setText(findTestObject('Object Repository/By Case/15/Page_/input__ctl00mai
 
 WebUI.click(findTestObject('Object Repository/By Case/15/Page_/input__ctl00mainBtnPromptPaySubmit'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Bluuu/button__1_2_3'), 360)
+WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayment'), 360)
 
-WebUI.click(findTestObject('Object Repository/By Case/15/Page_Bluuu/button__1_2_3'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
 
 get_dura = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu/td_ 2'))
 
 get_start = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700'))
+
+if (get_dura == 'ครั้งเดียว: 2 ชม.') {
+    a = 1
+}
+
+if (get_start == '25 เม.ย. 2021, 07:00') {
+    b = 1
+}
+
+if ((a + b) == 2) {
+    WebUI.closeBrowser()
+} else {
+    KeywordUtil.markFailed('')
+}
 
