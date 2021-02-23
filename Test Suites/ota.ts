@@ -16,6 +16,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login before use a service/09_Normal OTA (login before)</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2ab0c1df-8a81-4025-a86f-1a9fa24e614d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>668c2528-ad21-45d9-832f-1443fb951916</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5cb80e5d-d50c-4d82-aa92-2dca657c821e</guid>

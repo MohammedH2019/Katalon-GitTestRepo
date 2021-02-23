@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>21aaaf34-cb53-420d-ad1d-c94a5af22605</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ab0c1df-8a81-4025-a86f-1a9fa24e614d</id>
+      <masked>false</masked>
+      <name>check_dura</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>668c2528-ad21-45d9-832f-1443fb951916</id>
+      <masked>false</masked>
+      <name>check_start</name>
+   </variable>
 </TestCaseEntity>

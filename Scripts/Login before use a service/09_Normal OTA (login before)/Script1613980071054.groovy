@@ -23,20 +23,21 @@ WebUI.navigateToUrl('https://uat.bluuu.co/')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Used/zElement-Bluuu/img_TH_avatar_Not-Login'))
+WebUI.click(findTestObject('Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login'))
 
-WebUI.click(findTestObject('Used/zElement-Bluuu/button_ Facebook_Login'))
+WebUI.click(findTestObject('Object Repository/Used/zElement-Bluuu/button_ Facebook_Login'))
 
 WebUI.switchToWindowTitle('Facebook')
 
-WebUI.setText(findTestObject('Used/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+WebUI.setText(findTestObject('Object Repository/Used/001/Page-Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
 
-WebUI.setEncryptedText(findTestObject('Used/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Used/001/Page-Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
 
-WebUI.click(findTestObject('Used/Page-Facebook/label__loginbutton'))
+WebUI.click(findTestObject('Object Repository/Used/001/Page-Facebook/label__loginbutton'))
 
 'รอให้หน้าเพจโหลดก่อน'
 WebUI.delay(7)
+
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
@@ -101,4 +102,22 @@ WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayme
 
 'button click หลังจากนี้คงรอแหละ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
+
+get_dura = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura'))
+
+get_start = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'))
+
+if (get_dura == 'ครั้งเดียว: 3 ชม.') {
+	a = 1
+}
+
+if (get_start == '22 มี.ค. 2021, 06:30') {
+	b = 1
+}
+
+if ((a + b) == 2) {
+	WebUI.closeBrowser()
+} else {
+	KeywordUtil.markFailed('')
+}
 
