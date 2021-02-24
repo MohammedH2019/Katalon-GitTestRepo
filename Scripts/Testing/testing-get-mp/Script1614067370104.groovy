@@ -50,19 +50,33 @@ getmaid = WebUI.getText(findTestObject('Object Repository/Temp/Page_Bluuu/span_g
 //get_dura = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura'))
 //
 //get_start = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'))
-
 if (td_getdura == 'แพ็กเกจ: 2 ชม. x 4 ครั้ง') {
-	a = 1
+    a = 1
 }
 
 if (getmaid == 'Mark 〽️ Phoom') {
-	b = 1
+    b = 1
 }
 
 if ((a + b) == 2) {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 } else {
-	KeywordUtil.markFailed('')
+    KeywordUtil.markFailed('')
 }
 
+WebUI.acceptAlert()
+
+if (get_dura == 'ครั้งเดียว: 3 ชม.') {
+    a = 1
+}
+
+if (get_start == '25 เม.ย. 2021, 07:30') {
+    b = 1
+}
+
+if ((a + b) == 2) {
+    WebUI.closeBrowser()
+} else {
+    KeywordUtil.markFailed('')
+}
 

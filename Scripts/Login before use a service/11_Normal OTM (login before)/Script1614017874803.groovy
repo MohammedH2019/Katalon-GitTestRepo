@@ -74,10 +74,10 @@ WebUI.click(findTestObject('Used/Picking-Maid/button_Picking-maid'))
 'รูป avatar P\'Mark'
 WebUI.click(findTestObject('Used/Picking-Maid/img_PMark-Avatar'))
 
-WebUI.waitForElementClickable(findTestObject('Used/Picking-Maid/button_OneTime-PMark'), 60)
+WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/Page_Bluuu/img_PMark-OneTime'), 60)
 
 'กดจองครั้งเดียว'
-WebUI.click(findTestObject('Used/Picking-Maid/button_OneTime-PMark'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/Page_Bluuu/img_PMark-OneTime'))
 
 'เลื่อนเดือน'
 WebUI.click(findTestObject('Used/zElement-Bluuu/svg_NextMonth'))
@@ -127,17 +127,12 @@ get_dura = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/P
 get_start = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'))
 
 if (get_dura == 'ครั้งเดียว: 2 ชม.') {
-	a = 1
+    a = 1
 }
 
 if (get_start == '22 มี.ค. 2021, 07:00') {
-	b = 1
+    b = 1
 }
 
-print(a+b)
+print(a + b)
 
-//if ((a + b) == 2) {
-//	WebUI.closeBrowser()
-//} else {
-//	KeywordUtil.markFailed('')
-//}

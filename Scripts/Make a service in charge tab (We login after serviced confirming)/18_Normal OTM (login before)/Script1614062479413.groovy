@@ -23,93 +23,89 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://uat.bluuu.co/')
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu -/button_ Facebook'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu -/button_ Facebook'))
 
 WebUI.switchToWindowTitle('Facebook')
 
-WebUI.setText(findTestObject('Object Repository/By Case/18/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
+WebUI.setText(findTestObject('Object Repository/By Case/18_2/Page_Facebook/input__email'), 'qmkecjunto_1612852822@tfbnw.net')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/By Case/18/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/By Case/18_2/Page_Facebook/input__pass'), 'gOP7IdE590r7JITAEPMRJQ==')
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Facebook/label__loginbutton'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Facebook/label__loginbutton'))
 
 WebUI.delay(7)
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu -/a_'))
+'service'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu -/a_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_  Bluuu -/a_'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_  Bluuu -/img__mr-2'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div__arrow-down'))
+'OTM'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/a_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/li_ 1'))
+'condo'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/div__arrow-down'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1'))
+'3 bedroom'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/li_ 3'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/li_'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/div__arrow-down_1'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1_2'))
+'clean & laundry'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/li_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/li_3'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/div__arrow-down_1_2'))
 
-WebUI.setText(findTestObject('Object Repository/By Case/18/Page_Bluuu/input____BVID__288'), 'paragon')
+'3 hours'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/li_3'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div_Paragon Cineplex'))
+'ไปหน้าเลือกแม่บ้าน'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/button_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/a_'))
+'รูปพี่มาร์ค'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/img__avatar md'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/button_'))
+WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/Page_Bluuu/img_PMark-OneTime'), 30)
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__avatar md'))
+'ปฎิธินจองครั้งเดียว'
+WebUI.click(findTestObject('Used/zElement-Bluuu/Page_Bluuu/img_PMark-OneTime'))
 
-WebUI.waitForElementClickable(findTestObject('By Case/18/Page_Bluuu/img__mr-2'), 30)
+WebUI.setText(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/input____BVID__564'), 'to')
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__mr-2'))
+WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/div_Town in Town Village'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/svg__vc-svg-icon'))
 
-WebUI.click(findTestObject('By Case/Date/Page_Bluuu/span_M4D22'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/svg__vc-svg-icon'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1_2_3'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/span_22'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/li_0700'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/div__arrow-down_1_2_3'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/span_'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/li_0700'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/button__1'))
+'ฉันยอมรับ'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/span_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/button__1_2'))
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/button__1'))
 
-WebUI.click(findTestObject('Object Repository/By Case/15/Page_/a_'))
+'ยืนยันการจอง'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/button__1_2'))
 
-WebUI.setText(findTestObject('Object Repository/By Case/15/Page_/input__ctl00mainTxtPromptPayName'), 'sad')
+'promptpay'
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_/a_'))
 
-WebUI.click(findTestObject('Object Repository/By Case/15/Page_/input__ctl00mainBtnPromptPaySubmit'))
+WebUI.setText(findTestObject('Object Repository/By Case/18_2/Page_/input__ctl00mainTxtPromptPayName'), 'sad')
 
-WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayment'), 360)
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_/input__ctl00mainBtnPromptPaySubmit'))
 
-WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
+WebUI.waitForElementClickable(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/button__1_2_3'), 60)
 
-get_dura = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu/td_ 2'))
-
-get_start = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700'))
-
-if (get_dura == 'ครั้งเดียว: 3 ชม.') {
-    a = 1
-}
-
-if (get_start == '26 เม.ย. 2021, 07:00') {
-    b = 1
-}
-
-//if ((a + b) == 2) {
-//    WebUI.closeBrowser()
-//} else {
-//    KeywordUtil.markFailed('')
-//}
+WebUI.click(findTestObject('Object Repository/By Case/18_2/Page_Bluuu/button__1_2_3'))
 
