@@ -12,7 +12,7 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>66c31a9e-39be-4527-92a3-ab68361a791b</testSuiteGuid>
    <testCaseLink>
-      <guid>de3e438e-a8c8-486c-b89c-ba9ad0268e3a</guid>
+      <guid>43890d5f-cfb2-4821-9a29-3acc3a1c9840</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login before use a service/09_Normal OTA (login before)</testCaseId>
@@ -30,9 +30,21 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>5cb80e5d-d50c-4d82-aa92-2dca657c821e</guid>
+      <guid>643cc580-409c-4e90-8b30-048fdc9992cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login before use a service/10_OTA with Promotion (login before)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d82b2c17-bc91-449f-95d5-b4e64c97c1e4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e41921e9-ef86-40eb-b01f-e7c0db6f022d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before)</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
