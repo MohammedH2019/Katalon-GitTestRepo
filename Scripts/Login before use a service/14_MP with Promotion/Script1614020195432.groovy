@@ -71,8 +71,7 @@ WebUI.click(findTestObject('Used/Package-and-Date/img_MP-PMark-Avatar'))
 
 WebUI.delay(5)
 
-'จองแบบ package'
-WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Picking-Maid'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__mr-2'))
 
 'จำนวนชั่วโมง'
 WebUI.click(findTestObject('Used/Package-and-Date/div_Duration'))
@@ -95,7 +94,7 @@ WebUI.click(findTestObject('Used/Package-and-Date/li_Tuesday'))
 'เวลาในแต่ละครั้ง'
 WebUI.click(findTestObject('Used/Package-and-Date/div_Each-Time'))
 
-WebUI.click(findTestObject('Temp/Page_Bluuu/li_0600 - 0800'))
+WebUI.click(findTestObject('Used/Package-and-Date/li_0600 - 0800'))
 
 'ฉันยอมรับ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/span_I Accept'))
@@ -123,4 +122,22 @@ WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayme
 
 'button click หลังจากนี้คงรอแหละ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
+
+td_getdura = WebUI.getText(findTestObject('Object Repository/Temp/Page_Bluuu/td_getdura'))
+
+getmaid = WebUI.getText(findTestObject('Object Repository/Temp/Page_Bluuu/span_getmaid'))
+
+if (td_getdura == 'แพ็กเกจ: 2 ชม. x 4 ครั้ง') {
+    a = 1
+}
+
+if (getmaid == 'Mark 〽️ Phoom') {
+    b = 1
+}
+
+if ((a + b) == 2) {
+    WebUI.closeBrowser()
+} else {
+    KeywordUtil.markFailed('')
+}
 

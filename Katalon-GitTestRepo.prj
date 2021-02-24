@@ -6,7 +6,11 @@
    <UUID>731c90cc-c5f5-48c3-bdb6-e9f1dad18f60</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\WINDOWS\git\Katalon-GitTestRepo\Katalon-GitTestRepo.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\Katesopon\git\Katalon-GitTestRepo\Katalon-GitTestRepo.prj</projectFileLocation>
+>>>>>>> branch 'main' of https://github.com/kate006naja/Katalon-GitTestRepo.git
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
