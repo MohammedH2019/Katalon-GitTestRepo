@@ -71,8 +71,7 @@ WebUI.click(findTestObject('Used/Package-and-Date/img_MP-PMark-Avatar'))
 
 WebUI.delay(5)
 
-'จองแบบ package'
-WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Picking-Maid'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__mr-2'))
 
 'จำนวนชั่วโมง'
 WebUI.click(findTestObject('Used/Package-and-Date/div_Duration'))
@@ -95,7 +94,7 @@ WebUI.click(findTestObject('Used/Package-and-Date/li_Tuesday'))
 'เวลาในแต่ละครั้ง'
 WebUI.click(findTestObject('Used/Package-and-Date/div_Each-Time'))
 
-WebUI.click(findTestObject('Temp/Page_Bluuu/li_0600 - 0800'))
+WebUI.click(findTestObject('Used/Package-and-Date/li_0600 - 0800'))
 
 'ฉันยอมรับ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/span_I Accept'))

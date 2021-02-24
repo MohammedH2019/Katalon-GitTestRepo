@@ -69,8 +69,7 @@ WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Go-for-Maid'))
 'p\'Mark avatar'
 WebUI.click(findTestObject('Used/Package-and-Date/img_MP-PMark-Avatar'))
 
-'จองแบบ package'
-WebUI.click(findTestObject('Used/Package-and-Date/button_MP-Picking-Maid'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__mr-2'))
 
 'จำนวนชั่วโมง'
 WebUI.click(findTestObject('Used/Package-and-Date/div_Duration'))

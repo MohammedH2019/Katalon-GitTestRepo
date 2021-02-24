@@ -38,7 +38,6 @@ WebUI.click(findTestObject('Object Repository/Used/001/Page-Facebook/label__logi
 'รอให้หน้าเพจโหลดก่อน'
 WebUI.delay(7)
 
-
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
 'จอง one time'
@@ -48,7 +47,7 @@ WebUI.click(findTestObject('Used/zElement-Bluuu/a_OneTimeService'))
 WebUI.click(findTestObject('Used/zElement-Bluuu/svg_NextMonth'))
 
 'วันที่ 22 เดือน 3'
-WebUI.click(findTestObject('Used/zElement-Bluuu/span_M3D22'))
+WebUI.click(findTestObject('By Case/Date/Page_Bluuu/span_M3D4'))
 
 'เวลาเริ่มงาน'
 WebUI.click(findTestObject('Used/zElement-Bluuu/div_StartTime'))
@@ -108,16 +107,16 @@ get_dura = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/P
 get_start = WebUI.getText(findTestObject('Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'))
 
 if (get_dura == 'ครั้งเดียว: 3 ชม.') {
-	a = 1
+    a = 1
 }
 
-if (get_start == '22 มี.ค. 2021, 06:30') {
-	b = 1
+if (get_start == '3 มี.ค. 2021, 06:30') {
+    b = 1
 }
 
 if ((a + b) == 2) {
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
 } else {
-	KeywordUtil.markFailed('')
+    KeywordUtil.markFailed('')
 }
 

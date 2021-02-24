@@ -73,7 +73,7 @@ WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-
 
 WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
 
-WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/span_26'))
+WebUI.click(findTestObject('By Case/Date/Page_Bluuu/span_M4D22'))
 
 WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1_2_3'))
 

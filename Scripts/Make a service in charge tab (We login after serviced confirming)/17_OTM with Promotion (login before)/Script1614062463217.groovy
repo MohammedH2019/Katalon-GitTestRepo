@@ -61,15 +61,15 @@ WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/button_'))
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/img__avatar md'))
 
-WebUI.waitForElementClickable(findTestObject('Temp/Page_Bluuu/button_maid'), 10)
+WebUI.waitForElementClickable(findTestObject('By Case/18/Page_Bluuu/img__mr-2'), 30)
 
-WebUI.click(findTestObject('Temp/Page_Bluuu/button_maid'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/img__mr-2'))
 
-WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/svg__vc-svg-icon'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
 
-WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/svg__vc-svg-icon'))
+WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
 
-WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/span_26'))
+WebUI.click(findTestObject('By Case/Date/Page_Bluuu/span_M4D21'))
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/div__arrow-down_1_2_3'))
 
