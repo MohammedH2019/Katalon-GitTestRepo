@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>id_fb</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>757ab8a0-fcfa-4b33-8be2-441ceef5702e</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>febhqrzqma_1614061850%40tfbnw.net 123hod123</data>
+   <data>scmvihbzbf_1614062011%40tfbnw.net 123hod123</data>
+   <data>wcvoenlret_1614062087%40tfbnw.net 123hod123</data>
+   <data>mqliolbulu_1614062087%40tfbnw.net 123hod123</data>
+   <data>ytwbjsupfx_1614062087%40tfbnw.net 123hod123</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>id</name>
+      <size>5</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>pass</name>
+      <size>5</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>
