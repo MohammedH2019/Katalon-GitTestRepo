@@ -124,3 +124,21 @@ WebUI.waitForElementClickable(findTestObject('Used/zElement-Bluuu/button_MyPayme
 'button click หลังจากนี้คงรอแหละ'
 WebUI.click(findTestObject('Used/zElement-Bluuu/button_MyPayment'))
 
+td_getdura = WebUI.getText(findTestObject('Object Repository/Temp/Page_Bluuu/td_getdura'))
+
+getmaid = WebUI.getText(findTestObject('Object Repository/Temp/Page_Bluuu/span_getmaid'))
+
+if (td_getdura == 'แพ็กเกจ: 2 ชม. x 4 ครั้ง') {
+    a = 1
+}
+
+if (getmaid == 'Mark 〽️ Phoom') {
+    b = 1
+}
+
+if ((a + b) == 2) {
+    WebUI.closeBrowser()
+} else {
+    KeywordUtil.markFailed('')
+}
+
