@@ -30,12 +30,6 @@
       <testCaseId>Test Cases/Special Case/25_Information_correct</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d02ebf0a-5748-4639-82d5-50ea1f85ed71</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Special Case/26_Phone_OTP</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>9ad665ce-4829-47b6-8007-a1e2ebd6ec52</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

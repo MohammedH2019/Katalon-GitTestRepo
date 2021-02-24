@@ -1,0 +1,165 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Special Cases,Chrome 88.0.4324.182,,,2021-02-24 14:09:56,2021-02-24 14:14:44,4m - 47.586s,PASSED
+,,,,,,,
+Test Cases/Special Case/19_Text500,Chrome 88.0.4324.182,,,2021-02-24 14:09:58,2021-02-24 14:10:24,25.741s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:09:59,2021-02-24 14:10:01,2.240s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:10:01,2021-02-24 14:10:03,2.248s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:10:03,2021-02-24 14:10:03,0.147s,PASSED
+"click(findTestObject(""Object Repository/P_USE/19/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:03,2021-02-24 14:10:04,1.032s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/19/Page_Bluuu/textarea____BVID__200""), ""assadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklskdpakdpaskdassadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklskdpakdpaskdassadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklskdpakdpaskdassadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklskdpakdpaskdassadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklsassadasdasdasdqkdq[wkdlsdaldladlklkqkpaskdpqk[dkaksd[aksdlasd[k[dasldaksdpqkd[qkw[pkksadklskdpakdpaskd"")",Chrome 88.0.4324.182,,,2021-02-24 14:10:04,2021-02-24 14:10:20,15.438s,PASSED
+"text500 = getText(findTestObject(""Object Repository/P_USE/19/Page_Bluuu/p_ 500""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:20,2021-02-24 14:10:23,3.156s,PASSED
+"if (text500 == ""คุณสามารถกรอกข้อมูลเพิ่มเติมได้ทั้งหมด 500 ตัวอักษร"")",Chrome 88.0.4324.182,,,2021-02-24 14:10:23,2021-02-24 14:10:24,0.689s,PASSED
+,,,,,,,
+Test Cases/Special Case/20_BackTap,Chrome 88.0.4324.182,,,2021-02-24 14:10:24,2021-02-24 14:11:27,1m - 3.740s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:10:24,2021-02-24 14:10:25,1.126s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:10:25,2021-02-24 14:10:29,3.964s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:10:29,2021-02-24 14:10:29,0.132s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:29,2021-02-24 14:10:30,0.636s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/svg_NextMonth""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:30,2021-02-24 14:10:31,1.104s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/span_31""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:31,2021-02-24 14:10:34,3.161s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:34,2021-02-24 14:10:37,2.945s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/li_0600""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:37,2021-02-24 14:10:40,3.092s,PASSED
+"setText(findTestObject(""P_USE/20/Page_Bluuu/input____BVID__185""), ""to"")",Chrome 88.0.4324.182,,,2021-02-24 14:10:40,2021-02-24 14:10:47,6.611s,PASSED
+delay(2),Chrome 88.0.4324.182,,,2021-02-24 14:10:47,2021-02-24 14:10:49,2.039s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/div_Town in Town Village""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:49,2021-02-24 14:10:52,3.008s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:52,2021-02-24 14:10:55,3.010s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/li_ 1""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:55,2021-02-24 14:10:58,3.411s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:10:58,2021-02-24 14:11:01,2.963s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:01,2021-02-24 14:11:04,2.982s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:04,2021-02-24 14:11:07,3.114s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:07,2021-02-24 14:11:10,2.966s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/label_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:10,2021-02-24 14:11:13,3.072s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/label__1""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:13,2021-02-24 14:11:16,2.972s,PASSED
+"setText(findTestObject(""P_USE/20/Page_Bluuu/textarea____BVID__200""), ""ok kub ok"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:16,2021-02-24 14:11:23,6.765s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:23,2021-02-24 14:11:24,0.414s,PASSED
+"verifyElementClickable(findTestObject(""P_USE/20/Page_Bluuu/button_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:24,2021-02-24 14:11:24,0.464s,PASSED
+back(),Chrome 88.0.4324.182,,,2021-02-24 14:11:24,2021-02-24 14:11:24,0.067s,PASSED
+"click(findTestObject(""P_USE/20/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:24,2021-02-24 14:11:26,1.577s,PASSED
+"if (verifyElementNotClickable(findTestObject(""P_USE/20/Page_Bluuu/button_"")))",Chrome 88.0.4324.182,,,2021-02-24 14:11:26,2021-02-24 14:11:27,1.641s,PASSED
+,,,,,,,
+Test Cases/Special Case/25_Information_correct,Chrome 88.0.4324.182,,,2021-02-24 14:11:27,2021-02-24 14:11:51,23.411s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:11:28,2021-02-24 14:11:29,1.132s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:29,2021-02-24 14:11:33,3.606s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:11:33,2021-02-24 14:11:33,0.227s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:33,2021-02-24 14:11:33,0.471s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:33,2021-02-24 14:11:35,1.263s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:35,2021-02-24 14:11:36,1.266s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/span_30""))",Chrome 88.0.4324.182,Friday 30/04/2021,,2021-02-24 14:11:36,2021-02-24 14:11:37,0.726s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:37,2021-02-24 14:11:37,0.479s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/li_0700""))",Chrome 88.0.4324.182,07.00,,2021-02-24 14:11:37,2021-02-24 14:11:38,0.416s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/input____BVID__186""), ""to"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:38,2021-02-24 14:11:38,0.735s,PASSED
+delay(2.5),Chrome 88.0.4324.182,,,2021-02-24 14:11:38,2021-02-24 14:11:41,2.502s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/div_Town in Town Village""))",Chrome 88.0.4324.182,Town in Town Village,,2021-02-24 14:11:41,2021-02-24 14:11:41,0.385s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:41,2021-02-24 14:11:41,0.367s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/li_ 1""))",Chrome 88.0.4324.182,Condo 1 room,,2021-02-24 14:11:41,2021-02-24 14:11:42,0.387s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:42,2021-02-24 14:11:43,1.065s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,2 hrs,,2021-02-24 14:11:43,2021-02-24 14:11:43,0.375s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:43,2021-02-24 14:11:44,0.655s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/li_""))",Chrome 88.0.4324.182,Clean,,2021-02-24 14:11:44,2021-02-24 14:11:44,0.357s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/label_""))",Chrome 88.0.4324.182,cat,,2021-02-24 14:11:44,2021-02-24 14:11:45,0.491s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/label__1""))",Chrome 88.0.4324.182,dog,,2021-02-24 14:11:45,2021-02-24 14:11:45,0.355s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/textarea____BVID__201""), ""hello"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:45,2021-02-24 14:11:46,0.697s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:46,2021-02-24 14:11:46,0.368s,PASSED
+"click(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/button_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:46,2021-02-24 14:11:47,0.481s,PASSED
+"date = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/p_ 30 .. 2021""))",Chrome 88.0.4324.182,ศุกร์ 30 เม.ย. 2021,,2021-02-24 14:11:47,2021-02-24 14:11:48,1.072s,PASSED
+"doing = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/p_  0700 - 0900""))",Chrome 88.0.4324.182,ทำความสะอาด 07:00 - 09:00,,2021-02-24 14:11:48,2021-02-24 14:11:48,0.336s,PASSED
+"loca = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/span_Town in Town Village""))",Chrome 88.0.4324.182,Town in Town Village,,2021-02-24 14:11:48,2021-02-24 14:11:48,0.360s,PASSED
+"dura = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/p_2""))",Chrome 88.0.4324.182,2 ชั่วโมง,,2021-02-24 14:11:48,2021-02-24 14:11:49,0.344s,PASSED
+"ota = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/p_""))",Chrome 88.0.4324.182,จองครั้งเดียว,,2021-02-24 14:11:49,2021-02-24 14:11:49,0.323s,PASSED
+"text = getText(findTestObject(""Object Repository/P_USE/25/Page_Bluuu/p_hello""))",Chrome 88.0.4324.182,hello,,2021-02-24 14:11:49,2021-02-24 14:11:49,0.319s,PASSED
+"cat = getText(findTestObject(""P_USE/25/Page_Bluuu/cat""))",Chrome 88.0.4324.182,cat,,2021-02-24 14:11:49,2021-02-24 14:11:50,0.316s,PASSED
+"dog = getText(findTestObject(""P_USE/25/Page_Bluuu/dog""))",Chrome 88.0.4324.182,dog,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.326s,PASSED
+"if (date == ""ศุกร์ 30 เม.ย. 2021"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.000s,PASSED
+"if (doing == ""ทำความสะอาด 07:00 - 09:00"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.001s,PASSED
+"if (loca == ""Town in Town Village"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.000s,PASSED
+"if (dura == ""2 ชั่วโมง"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.001s,PASSED
+"if (ota == ""จองครั้งเดียว"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.000s,PASSED
+"if (text == ""hello"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.001s,PASSED
+"if (cat == ""ฉันมีแมว"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.001s,PASSED
+"if (dog == ""ฉันมีสุนัข"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:50,0.001s,PASSED
+if (v1 + v2 + v3 + v4 + v5 + v6 + v7 + v8 == 8),Chrome 88.0.4324.182,,,2021-02-24 14:11:50,2021-02-24 14:11:51,0.667s,PASSED
+,,,,,,,
+Test Cases/Special Case/27_Coupon,Chrome 88.0.4324.182,,,2021-02-24 14:11:51,2021-02-24 14:12:48,57.569s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:11:51,2021-02-24 14:11:52,1.105s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:11:52,2021-02-24 14:11:58,5.438s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:11:58,2021-02-24 14:11:58,0.130s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:58,2021-02-24 14:11:59,0.597s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:11:59,2021-02-24 14:12:00,1.219s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/span_31""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:00,2021-02-24 14:12:03,3.086s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:03,2021-02-24 14:12:06,2.958s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/li_0600""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:06,2021-02-24 14:12:09,3.318s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/input____BVID__185""), ""to"")",Chrome 88.0.4324.182,,,2021-02-24 14:12:09,2021-02-24 14:12:16,6.448s,PASSED
+delay(2.5),Chrome 88.0.4324.182,,,2021-02-24 14:12:16,2021-02-24 14:12:18,2.504s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/div_Town in Town Village""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:18,2021-02-24 14:12:21,3.144s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/div_ 1 _arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:21,2021-02-24 14:12:24,2.941s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/li_ 1""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:24,2021-02-24 14:12:27,3.088s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:27,2021-02-24 14:12:30,2.920s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:30,2021-02-24 14:12:33,3.088s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:33,2021-02-24 14:12:36,2.927s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:36,2021-02-24 14:12:39,3.093s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:39,2021-02-24 14:12:40,0.493s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/button__1""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:40,2021-02-24 14:12:40,0.491s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/input____BVID__282""), ""WELCOME30"")",Chrome 88.0.4324.182,,,2021-02-24 14:12:40,2021-02-24 14:12:47,6.548s,PASSED
+"click(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/button__1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:47,2021-02-24 14:12:47,0.393s,PASSED
+"cop = getText(findTestObject(""Object Repository/P_USE/27/Page_Bluuu/p_ 350.00""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:47,2021-02-24 14:12:48,0.443s,PASSED
+"if (cop == ""฿ 350.00"")",Chrome 88.0.4324.182,,,2021-02-24 14:12:48,2021-02-24 14:12:48,0.682s,PASSED
+,,,,,,,
+Test Cases/Special Case/29_No_maid,Chrome 88.0.4324.182,,,2021-02-24 14:12:48,2021-02-24 14:13:43,54.901s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:12:49,2021-02-24 14:12:50,1.113s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:12:50,2021-02-24 14:12:56,5.836s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:12:56,2021-02-24 14:12:56,0.192s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:56,2021-02-24 14:12:57,1.013s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:57,2021-02-24 14:12:58,1.208s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/span_31""))",Chrome 88.0.4324.182,,,2021-02-24 14:12:58,2021-02-24 14:13:01,3.070s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:01,2021-02-24 14:13:04,2.977s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/li_1900""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:04,2021-02-24 14:13:08,3.224s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/input____BVID__185""), ""to"")",Chrome 88.0.4324.182,,,2021-02-24 14:13:08,2021-02-24 14:13:14,6.399s,PASSED
+delay(2),Chrome 88.0.4324.182,,,2021-02-24 14:13:14,2021-02-24 14:13:16,2.003s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/div_Town in Town Village""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:16,2021-02-24 14:13:19,3.136s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:19,2021-02-24 14:13:22,3.015s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/li_ 1""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:22,2021-02-24 14:13:25,3.163s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:25,2021-02-24 14:13:28,3.032s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:28,2021-02-24 14:13:31,3.101s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:31,2021-02-24 14:13:34,2.965s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:34,2021-02-24 14:13:37,3.136s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/label_""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:37,2021-02-24 14:13:40,2.979s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/span_""))",Chrome 88.0.4324.182,ฉันยอมรับ,,2021-02-24 14:13:40,2021-02-24 14:13:41,0.391s,PASSED
+"click(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/button_""))",Chrome 88.0.4324.182,จอง,,2021-02-24 14:13:41,2021-02-24 14:13:41,0.508s,PASSED
+"text = getText(findTestObject(""Object Repository/P_USE/29/Page_Bluuu/p_""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:41,2021-02-24 14:13:42,0.846s,PASSED
+"c1 = ""เนื่องจากมีผู้ใช้บริการเป็นจำนวนมาก ทำให้แม่บ้านของเรา ไม่สามารถให้บริการได้ในเวลาดังกล่าว""",Chrome 88.0.4324.182,,,2021-02-24 14:13:42,2021-02-24 14:13:42,0.000s,PASSED
+"c2 = ""โปรดเลือกใช้บริการแม่บ้านของเราในช่วงเวลาอื่น และอภัยในความไม่สะดวก เราจะทำงานอย่างเต็มที่ เพื่อจัดหาแม่บ้านเพื่อคุณ ขอบคุณสำหรับการใช้บริการ""",Chrome 88.0.4324.182,,,2021-02-24 14:13:42,2021-02-24 14:13:42,0.000s,PASSED
+"if (text == c1 + ""
+"" + c2)",Chrome 88.0.4324.182,,,2021-02-24 14:13:42,2021-02-24 14:13:43,1.066s,PASSED
+,,,,,,,
+Test Cases/Special Case/30_One_maid,Chrome 88.0.4324.182,,,2021-02-24 14:13:43,2021-02-24 14:14:44,1m - 0.771s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:13:44,2021-02-24 14:13:45,1.147s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:13:45,2021-02-24 14:13:53,8.039s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:13:53,2021-02-24 14:13:53,0.135s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:53,2021-02-24 14:13:54,0.611s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:54,2021-02-24 14:13:55,1.189s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:55,2021-02-24 14:13:56,0.837s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:56,2021-02-24 14:13:56,0.722s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:56,2021-02-24 14:13:57,0.709s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:57,2021-02-24 14:13:58,0.715s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:58,2021-02-24 14:13:59,0.700s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:59,2021-02-24 14:13:59,0.724s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:13:59,2021-02-24 14:14:00,0.692s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:00,2021-02-24 14:14:01,0.736s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:01,2021-02-24 14:14:01,0.674s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:01,2021-02-24 14:14:02,0.669s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/span_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:02,2021-02-24 14:14:05,2.993s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:05,2021-02-24 14:14:08,3.033s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/li_0600""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:08,2021-02-24 14:14:11,3.290s,PASSED
+"setText(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/input____BVID__185""), ""to"")",Chrome 88.0.4324.182,,,2021-02-24 14:14:11,2021-02-24 14:14:18,6.379s,PASSED
+delay(2),Chrome 88.0.4324.182,,,2021-02-24 14:14:18,2021-02-24 14:14:20,2.003s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/div_Town in Town Village""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:20,2021-02-24 14:14:23,3.021s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:23,2021-02-24 14:14:26,3.123s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/li_ 1""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:26,2021-02-24 14:14:29,3.168s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:29,2021-02-24 14:14:32,2.995s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:32,2021-02-24 14:14:35,3.126s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:35,2021-02-24 14:14:38,2.986s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:38,2021-02-24 14:14:41,3.148s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:41,2021-02-24 14:14:42,0.494s,PASSED
+"click(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/button_""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:42,2021-02-24 14:14:42,0.492s,PASSED
+"text = getText(findTestObject(""Object Repository/P_USE/30/Page_Bluuu/p_  ()""))",Chrome 88.0.4324.182,,,2021-02-24 14:14:42,2021-02-24 14:14:43,0.695s,PASSED
+"if (text == ""จำนวนแม่บ้านที่ให้บริการในช่วงเวลาที่คุณเลือกมีจำกัด แต่เราจะพยายามอย่างเต็มที่เพื่อหาแม่บ้านที่ดีสำหรับคุณ! (ข้อความนี้เป็นเพียงการแจ้งสถานะเพื่อทราบเท่านั้น)"")",Chrome 88.0.4324.182,,,2021-02-24 14:14:43,2021-02-24 14:14:44,1.036s,PASSED

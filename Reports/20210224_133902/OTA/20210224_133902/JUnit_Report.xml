@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="OTA" time="420.325" tests="4" failures="1" skips="0" errors="1">
+   <testsuite name="OTA" tests="4" failures="1" errors="1" time="420.325" skips="0" timestamp="2021-02-24 13:39:05" hostname="Katesopon - LAPTOP-PAE3MHPM" id="Test Suites/OTA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Katesopon\\git\\Katalon-GitTestRepo\\Reports\\20210224_133902\\OTA\\20210224_133902"/>
+         <property name="logFiles" value="C:\\Users\\Katesopon\\git\\Katalon-GitTestRepo\\Reports\\20210224_133902\\OTA\\20210224_133902\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Katesopon\\git\\Katalon-GitTestRepo\\Reports\\20210224_133902\\OTA\\20210224_133902\\1614149164581.png"/>
+         <property name="hostName" value="Katesopon - LAPTOP-PAE3MHPM"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 88.0.4324.182"/>
+         <property name="hostAddress" value="192.168.1.139"/>
+         <property name="sessionId" value="442230b263cde41d2cd5a00806f40a8c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login before use a service/09_Normal OTA (login before)" time="124.345" classname="Test Cases/Login before use a service/09_Normal OTA (login before)" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login before use a service/09_Normal OTA (login before) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: b for class: Script1613980071054
+	at 09_Normal OTA (login before).run(09_Normal OTA (login before):117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-24 13:39:07 - [TEST_CASE][ERROR] - Test Cases/Login before use a service/09_Normal OTA (login before): Test Cases/Login before use a service/09_Normal OTA (login before) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: b for class: Script1613980071054
+	at 09_Normal OTA (login before).run(09_Normal OTA (login before):117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+
+
+2021-02-24 13:39:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-24 13:39:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-24 13:39:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-24 13:39:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-24 13:39:10 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.bluuu.co/"): Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:39:15 - [MESSAGE][PASSED] - Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:39:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-24 13:39:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-24 13:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login")): Object: 'Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login' is clicked on
+
+2021-02-24 13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login' is clicked on
+
+2021-02-24 13:39:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Used/zElement-Bluuu/button_ Facebook_Login")): Object: 'Object Repository/Used/zElement-Bluuu/button_ Facebook_Login' is clicked on
+
+2021-02-24 13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_ Facebook_Login' is clicked on
+
+2021-02-24 13:39:16 - [TEST_STEP][PASSED] - switchToWindowTitle("Facebook"): Switched to window with title: 'Facebook'
+
+2021-02-24 13:39:18 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2021-02-24 13:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Used/001/Page-Facebook/input__email"), "qmkecjunto_1612852822@tfbnw.net"): Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/Used/001/Page-Facebook/input__email'
+
+2021-02-24 13:39:19 - [MESSAGE][PASSED] - Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/Used/001/Page-Facebook/input__email'
+
+2021-02-24 13:39:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Used/001/Page-Facebook/input__pass"), "gOP7IdE590r7JITAEPMRJQ=="): Text ****** has been set on object 'Object Repository/Used/001/Page-Facebook/input__pass'
+
+2021-02-24 13:39:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Used/001/Page-Facebook/input__pass'
+
+2021-02-24 13:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Used/001/Page-Facebook/label__loginbutton")): Object: 'Object Repository/Used/001/Page-Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/001/Page-Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:39:20 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-02-24 13:39:27 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-02-24 13:39:27 - [TEST_STEP][PASSED] - switchToWindowTitle("Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"): Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:39:27 - [MESSAGE][PASSED] - Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/a_OneTimeService")): Object: 'Object Repository/Used/zElement-Bluuu/a_OneTimeService' is clicked on
+
+2021-02-24 13:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/a_OneTimeService' is clicked on
+
+2021-02-24 13:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/svg_NextMonth")): Object: 'Object Repository/Used/zElement-Bluuu/svg_NextMonth' is clicked on
+
+2021-02-24 13:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/svg_NextMonth' is clicked on
+
+2021-02-24 13:39:28 - [TEST_STEP][PASSED] - click(findTestObject("By Case/Date/Page_Bluuu/span_M3D4")): Object: 'Object Repository/By Case/Date/Page_Bluuu/span_M3D4' is clicked on
+
+2021-02-24 13:39:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__357']/div/div/div/div/div/div/div[2]/div[12]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/Date/Page_Bluuu/span_M3D4'. Try using Self-healing.
+
+2021-02-24 13:39:31 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__357']/div/div/div/div/div/div/div[2]/div[12]/div/div/span'.
+
+2021-02-24 13:39:31 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[5]'.
+
+2021-02-24 13:39:32 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/Date/Page_Bluuu/span_M3D4_neighbor.png
+
+2021-02-24 13:39:32 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:32 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:32 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/Date/Page_Bluuu/span_M3D4' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[5]'.
+
+2021-02-24 13:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/Date/Page_Bluuu/span_M3D4' is clicked on
+
+2021-02-24 13:39:32 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_StartTime")): Object: 'Object Repository/Used/zElement-Bluuu/div_StartTime' is clicked on
+
+2021-02-24 13:39:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__172']/div/div[2]/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_StartTime'. Try using Self-healing.
+
+2021-02-24 13:39:34 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__172']/div/div[2]/button/div[2]'.
+
+2021-02-24 13:39:34 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button/div[2]'.
+
+2021-02-24 13:39:35 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_StartTime_position.png
+
+2021-02-24 13:39:35 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:35 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:35 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_StartTime' was broken. Propose an alternative one: '//button/div[2]'.
+
+2021-02-24 13:39:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_StartTime' is clicked on
+
+2021-02-24 13:39:35 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page_Bluuu/li_0630")): Object: 'Object Repository/Used/Page_Bluuu/li_0630' is clicked on
+
+2021-02-24 13:39:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__172']/div/div[2]/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:37 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/Page_Bluuu/li_0630'. Try using Self-healing.
+
+2021-02-24 13:39:37 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:37 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__172']/div/div[2]/div/ul/li[3]'.
+
+2021-02-24 13:39:37 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[2]'.
+
+2021-02-24 13:39:38 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/Page_Bluuu/li_0630_neighbor.png
+
+2021-02-24 13:39:38 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:38 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:38 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/Page_Bluuu/li_0630' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[2]'.
+
+2021-02-24 13:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page_Bluuu/li_0630' is clicked on
+
+2021-02-24 13:39:38 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_RoomType")): Object: 'Object Repository/Used/zElement-Bluuu/div_RoomType' is clicked on
+
+2021-02-24 13:39:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__244']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_RoomType'. Try using Self-healing.
+
+2021-02-24 13:39:40 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__244']/div/div/button/div[2]'.
+
+2021-02-24 13:39:40 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:39:41 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_RoomType_position.png
+
+2021-02-24 13:39:41 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:41 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_RoomType' was broken. Propose an alternative one: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_RoomType' is clicked on
+
+2021-02-24 13:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/li_Condo2Bedroom")): Object: 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' is clicked on
+
+2021-02-24 13:39:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__244']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom'. Try using Self-healing.
+
+2021-02-24 13:39:43 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:43 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__244']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:39:44 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:39:44 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom_neighbor.png
+
+2021-02-24 13:39:44 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:44 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:39:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' is clicked on
+
+2021-02-24 13:39:44 - [TEST_STEP][PASSED] - setText(findTestObject("Used/zElement-Bluuu/input_Location"), "paragon"): Text 'paragon' is set on object 'Object Repository/Used/zElement-Bluuu/input_Location'
+
+2021-02-24 13:39:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__233']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Location'. Try using Self-healing.
+
+2021-02-24 13:39:46 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__233']'.
+
+2021-02-24 13:39:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div/div/input'.
+
+2021-02-24 13:39:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:39:47 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Location_position.png
+
+2021-02-24 13:39:47 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:47 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Location' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:39:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__233']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Location'. Try using Self-healing.
+
+2021-02-24 13:39:50 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__233']'.
+
+2021-02-24 13:39:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div/div/input'.
+
+2021-02-24 13:39:50 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:39:51 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Location_position.png
+
+2021-02-24 13:39:51 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:51 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Location' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:39:51 - [MESSAGE][PASSED] - Text 'paragon' is set on object 'Object Repository/Used/zElement-Bluuu/input_Location'
+
+2021-02-24 13:39:51 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_Paragon Cineplex")): Object: 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:39:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__232']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:53 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex'. Try using Self-healing.
+
+2021-02-24 13:39:53 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div[2]/div/div/div'.
+
+2021-02-24 13:39:53 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:39:54 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex_neighbor.png
+
+2021-02-24 13:39:54 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:54 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:39:54 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_Duration")): Object: 'Object Repository/Used/zElement-Bluuu/div_Duration' is clicked on
+
+2021-02-24 13:39:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__246']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:39:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_Duration'. Try using Self-healing.
+
+2021-02-24 13:39:56 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__246']/div/div/button/div[2]'.
+
+2021-02-24 13:39:56 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:39:57 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_Duration_position.png
+
+2021-02-24 13:39:57 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:39:57 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:39:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_Duration' was broken. Propose an alternative one: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:39:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_Duration' is clicked on
+
+2021-02-24 13:39:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-02-24 13:39:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-24 13:39:58 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page_Bluuu/li_3 hours")): Object: 'Object Repository/Used/Page_Bluuu/li_3 hours' is clicked on
+
+2021-02-24 13:40:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__218']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:40:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/Page_Bluuu/li_3 hours'. Try using Self-healing.
+
+2021-02-24 13:40:00 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__218']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:40:00 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[2]'.
+
+2021-02-24 13:40:01 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/Page_Bluuu/li_3 hours_neighbor.png
+
+2021-02-24 13:40:01 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:01 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:40:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/Page_Bluuu/li_3 hours' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[2]'.
+
+2021-02-24 13:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page_Bluuu/li_3 hours' is clicked on
+
+2021-02-24 13:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_arrow-down_CleanType")): Object: 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' is clicked on
+
+2021-02-24 13:40:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__248']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:40:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType'. Try using Self-healing.
+
+2021-02-24 13:40:03 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__248']/div/div/button/div[2]'.
+
+2021-02-24 13:40:03 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:40:04 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType_position.png
+
+2021-02-24 13:40:04 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:04 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:40:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' was broken. Propose an alternative one: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' is clicked on
+
+2021-02-24 13:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/li_Clean-and-Laundry")): Object: 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' is clicked on
+
+2021-02-24 13:40:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__248']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:40:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry'. Try using Self-healing.
+
+2021-02-24 13:40:06 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__248']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:40:06 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาด'])[1]/following::li[1]'.
+
+2021-02-24 13:40:07 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry_neighbor.png
+
+2021-02-24 13:40:07 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:07 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:40:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาด'])[1]/following::li[1]'.
+
+2021-02-24 13:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' is clicked on
+
+2021-02-24 13:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/label_IgotCat")): Object: 'Object Repository/Used/zElement-Bluuu/label_IgotCat' is clicked on
+
+2021-02-24 13:40:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__251']/div/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:40:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/label_IgotCat'. Try using Self-healing.
+
+2021-02-24 13:40:09 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__251']/div/label'.
+
+2021-02-24 13:40:09 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:40:10 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/label_IgotCat_neighbor.png
+
+2021-02-24 13:40:10 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:10 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:40:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/label_IgotCat' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/label_IgotCat' is clicked on
+
+2021-02-24 13:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/label_IgotDog")): Object: 'Object Repository/Used/zElement-Bluuu/label_IgotDog' is clicked on
+
+2021-02-24 13:40:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__251']/div[2]/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:40:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/label_IgotDog'. Try using Self-healing.
+
+2021-02-24 13:40:12 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:12 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__251']/div[2]/label'.
+
+2021-02-24 13:40:12 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:40:13 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/label_IgotDog_neighbor.png
+
+2021-02-24 13:40:13 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:40:13 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:40:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/label_IgotDog' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/label_IgotDog' is clicked on
+
+2021-02-24 13:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/span_I Accept")): Object: 'Object Repository/Used/zElement-Bluuu/span_I Accept' is clicked on
+
+2021-02-24 13:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/span_I Accept' is clicked on
+
+2021-02-24 13:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_BookNow")): Object: 'Object Repository/Used/zElement-Bluuu/button_BookNow' is clicked on
+
+2021-02-24 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_BookNow' is clicked on
+
+2021-02-24 13:40:14 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_ConfirmBookNow")): Object: 'Object Repository/Used/zElement-Bluuu/button_ConfirmBookNow' is clicked on
+
+2021-02-24 13:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_ConfirmBookNow' is clicked on
+
+2021-02-24 13:40:15 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page-Payment/a_ClckPromptPay")): Object: 'Object Repository/Used/Page-Payment/a_ClckPromptPay' is clicked on
+
+2021-02-24 13:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page-Payment/a_ClckPromptPay' is clicked on
+
+2021-02-24 13:40:19 - [TEST_STEP][PASSED] - setText(findTestObject("Used/Page-Payment/input_TxtPromptPayName"), "test"): Text 'test' is set on object 'Object Repository/Used/Page-Payment/input_TxtPromptPayName'
+
+2021-02-24 13:40:19 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Used/Page-Payment/input_TxtPromptPayName'
+
+2021-02-24 13:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page-Payment/input_BtnPromptPaySubmit")): Object: 'Object Repository/Used/Page-Payment/input_BtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page-Payment/input_BtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:40:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Used/zElement-Bluuu/button_MyPayment"), 360): Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:41:04 - [MESSAGE][PASSED] - Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:41:04 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_MyPayment")): Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:41:04 - [TEST_STEP][PASSED] - get_dura = getText(findTestObject("Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura")): Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' is: 'ครั้งเดียว: 3 ชม.'
+
+2021-02-24 13:41:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='__BVID__166']/tbody/tr/td[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura'. Try using Self-healing.
+
+2021-02-24 13:41:07 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='__BVID__166']/tbody/tr/td[2]'.
+
+2021-02-24 13:41:08 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ราคา'])[1]/following::td[2]'.
+
+2021-02-24 13:41:08 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura_neighbor.png
+
+2021-02-24 13:41:08 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:08 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ราคา'])[1]/following::td[2]'.
+
+2021-02-24 13:41:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' is: 'ครั้งเดียว: 3 ชม.'
+
+2021-02-24 13:41:08 - [TEST_STEP][PASSED] - get_start = getText(findTestObject("Object Repository/Used/zElement-Bluuu/Page_Bluuu/start")): Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' is: '04 มี.ค. 2021, 06:30'
+
+2021-02-24 13:41:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='__BVID__166']/tbody/tr/td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'. Try using Self-healing.
+
+2021-02-24 13:41:10 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:11 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='__BVID__166']/tbody/tr/td[3]'.
+
+2021-02-24 13:41:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ครั้งเดียว: 3 ชม.'])[1]/following::td[1]'.
+
+2021-02-24 13:41:11 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/Page_Bluuu/start_neighbor.png
+
+2021-02-24 13:41:11 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:11 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ครั้งเดียว: 3 ชม.'])[1]/following::td[1]'.
+
+2021-02-24 13:41:11 - [MESSAGE][PASSED] - Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' is: '04 มี.ค. 2021, 06:30'
+
+2021-02-24 13:41:11 - [TEST_STEP][PASSED] - if (get_dura == "ครั้งเดียว: 3 ชม."): null
+
+2021-02-24 13:41:11 - [TEST_STEP][PASSED] - a = 1: null
+
+2021-02-24 13:41:11 - [TEST_STEP][PASSED] - if (get_start == "4 มี.ค. 2021, 06:30"): null
+
+2021-02-24 13:41:11 - [TEST_STEP][PASSED] - if (a + b == 2): null]]></system-out>
+         <system-err><![CDATA[2021-02-24 13:39:07 - [TEST_CASE][ERROR] - Test Cases/Login before use a service/09_Normal OTA (login before): Test Cases/Login before use a service/09_Normal OTA (login before) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: b for class: Script1613980071054
+	at 09_Normal OTA (login before).run(09_Normal OTA (login before):117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login before use a service/10_OTA with Promotion (login before)" time="128.281" classname="Test Cases/Login before use a service/10_OTA with Promotion (login before)" status="PASSED">
+         <system-out><![CDATA[2021-02-24 13:41:11 - [TEST_CASE][PASSED] - Test Cases/Login before use a service/10_OTA with Promotion (login before): Test Cases/Login before use a service/10_OTA with Promotion (login before)
+
+2021-02-24 13:41:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-24 13:41:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-02-24 13:41:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-24 13:41:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-24 13:41:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-24 13:41:13 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.bluuu.co/"): Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:41:17 - [MESSAGE][PASSED] - Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:41:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-24 13:41:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-24 13:41:17 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/img_TH_avatar_Not-Login")): Object: 'Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login' is clicked on
+
+2021-02-24 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login' is clicked on
+
+2021-02-24 13:41:18 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_ Facebook_Login")): Object: 'Object Repository/Used/zElement-Bluuu/button_ Facebook_Login' is clicked on
+
+2021-02-24 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_ Facebook_Login' is clicked on
+
+2021-02-24 13:41:18 - [TEST_STEP][PASSED] - switchToWindowTitle("Facebook"): Switched to window with title: 'Facebook'
+
+2021-02-24 13:41:20 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2021-02-24 13:41:20 - [TEST_STEP][PASSED] - setText(findTestObject("Used/Page-Facebook/input__email"), "qmkecjunto_1612852822@tfbnw.net"): Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/Used/Page-Facebook/input__email'
+
+2021-02-24 13:41:21 - [MESSAGE][PASSED] - Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/Used/Page-Facebook/input__email'
+
+2021-02-24 13:41:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Used/Page-Facebook/input__pass"), "gOP7IdE590r7JITAEPMRJQ=="): Text ****** has been set on object 'Object Repository/Used/Page-Facebook/input__pass'
+
+2021-02-24 13:41:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Used/Page-Facebook/input__pass'
+
+2021-02-24 13:41:21 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page-Facebook/label__loginbutton")): Object: 'Object Repository/Used/Page-Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:41:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page-Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:41:22 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-02-24 13:41:29 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-02-24 13:41:29 - [TEST_STEP][PASSED] - switchToWindowTitle("Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"): Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:41:29 - [MESSAGE][PASSED] - Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/a_OneTimeService")): Object: 'Object Repository/Used/zElement-Bluuu/a_OneTimeService' is clicked on
+
+2021-02-24 13:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/a_OneTimeService' is clicked on
+
+2021-02-24 13:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/svg_NextMonth")): Object: 'Object Repository/Used/zElement-Bluuu/svg_NextMonth' is clicked on
+
+2021-02-24 13:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/svg_NextMonth' is clicked on
+
+2021-02-24 13:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/span_M3D23")): Object: 'Object Repository/Used/zElement-Bluuu/span_M3D23' is clicked on
+
+2021-02-24 13:41:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__97']/div/div/div/div/div/div/div[2]/div[31]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:33 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/span_M3D23'. Try using Self-healing.
+
+2021-02-24 13:41:33 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:33 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__97']/div/div/div/div/div/div/div[2]/div[31]/div/div/span'.
+
+2021-02-24 13:41:33 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[24]'.
+
+2021-02-24 13:41:33 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/span_M3D23_neighbor.png
+
+2021-02-24 13:41:33 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:33 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/span_M3D23' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[24]'.
+
+2021-02-24 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/span_M3D23' is clicked on
+
+2021-02-24 13:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_StartTime")): Object: 'Object Repository/Used/zElement-Bluuu/div_StartTime' is clicked on
+
+2021-02-24 13:41:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__172']/div/div[2]/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:36 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_StartTime'. Try using Self-healing.
+
+2021-02-24 13:41:36 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__172']/div/div[2]/button/div[2]'.
+
+2021-02-24 13:41:36 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button/div[2]'.
+
+2021-02-24 13:41:36 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_StartTime_position.png
+
+2021-02-24 13:41:36 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:36 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_StartTime' was broken. Propose an alternative one: '//button/div[2]'.
+
+2021-02-24 13:41:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_StartTime' is clicked on
+
+2021-02-24 13:41:37 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page_Bluuu/li_0630")): Object: 'Object Repository/Used/Page_Bluuu/li_0630' is clicked on
+
+2021-02-24 13:41:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__172']/div/div[2]/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/Page_Bluuu/li_0630'. Try using Self-healing.
+
+2021-02-24 13:41:39 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__172']/div/div[2]/div/ul/li[3]'.
+
+2021-02-24 13:41:39 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[2]'.
+
+2021-02-24 13:41:40 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/Page_Bluuu/li_0630_neighbor.png
+
+2021-02-24 13:41:40 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:40 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/Page_Bluuu/li_0630' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[2]'.
+
+2021-02-24 13:41:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page_Bluuu/li_0630' is clicked on
+
+2021-02-24 13:41:40 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_RoomType")): Object: 'Object Repository/Used/zElement-Bluuu/div_RoomType' is clicked on
+
+2021-02-24 13:41:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__244']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_RoomType'. Try using Self-healing.
+
+2021-02-24 13:41:42 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__244']/div/div/button/div[2]'.
+
+2021-02-24 13:41:42 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:41:43 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_RoomType_position.png
+
+2021-02-24 13:41:43 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:43 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_RoomType' was broken. Propose an alternative one: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:41:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_RoomType' is clicked on
+
+2021-02-24 13:41:43 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/li_Condo2Bedroom")): Object: 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' is clicked on
+
+2021-02-24 13:41:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__244']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom'. Try using Self-healing.
+
+2021-02-24 13:41:45 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__244']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:41:45 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:41:46 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom_neighbor.png
+
+2021-02-24 13:41:46 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:46 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom' is clicked on
+
+2021-02-24 13:41:46 - [TEST_STEP][PASSED] - setText(findTestObject("Used/zElement-Bluuu/input_Location"), "paragon"): Text 'paragon' is set on object 'Object Repository/Used/zElement-Bluuu/input_Location'
+
+2021-02-24 13:41:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__233']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Location'. Try using Self-healing.
+
+2021-02-24 13:41:48 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__233']'.
+
+2021-02-24 13:41:48 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div/div/input'.
+
+2021-02-24 13:41:49 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:41:49 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Location_position.png
+
+2021-02-24 13:41:49 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:49 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Location' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:41:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__233']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Location'. Try using Self-healing.
+
+2021-02-24 13:41:51 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__233']'.
+
+2021-02-24 13:41:51 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div/div/input'.
+
+2021-02-24 13:41:52 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:41:52 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Location_position.png
+
+2021-02-24 13:41:52 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:52 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Location' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:41:52 - [MESSAGE][PASSED] - Text 'paragon' is set on object 'Object Repository/Used/zElement-Bluuu/input_Location'
+
+2021-02-24 13:41:52 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_Paragon Cineplex")): Object: 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:41:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__232']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex'. Try using Self-healing.
+
+2021-02-24 13:41:54 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:54 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__232']/div/div[2]/div/div/div'.
+
+2021-02-24 13:41:55 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:41:55 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex_neighbor.png
+
+2021-02-24 13:41:55 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:55 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_Duration")): Object: 'Object Repository/Used/zElement-Bluuu/div_Duration' is clicked on
+
+2021-02-24 13:41:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__246']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:41:57 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_Duration'. Try using Self-healing.
+
+2021-02-24 13:41:57 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:57 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__246']/div/div/button/div[2]'.
+
+2021-02-24 13:41:58 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:41:58 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_Duration_position.png
+
+2021-02-24 13:41:58 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:41:58 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:41:58 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_Duration' was broken. Propose an alternative one: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:41:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_Duration' is clicked on
+
+2021-02-24 13:41:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2021-02-24 13:41:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-24 13:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page_Bluuu/li_3 hours")): Object: 'Object Repository/Used/Page_Bluuu/li_3 hours' is clicked on
+
+2021-02-24 13:42:01 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__218']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:01 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/Page_Bluuu/li_3 hours'. Try using Self-healing.
+
+2021-02-24 13:42:01 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__218']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:42:02 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[2]'.
+
+2021-02-24 13:42:02 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/Page_Bluuu/li_3 hours_neighbor.png
+
+2021-02-24 13:42:02 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:02 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/Page_Bluuu/li_3 hours' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[2]'.
+
+2021-02-24 13:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page_Bluuu/li_3 hours' is clicked on
+
+2021-02-24 13:42:02 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/div_arrow-down_CleanType")): Object: 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' is clicked on
+
+2021-02-24 13:42:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__248']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType'. Try using Self-healing.
+
+2021-02-24 13:42:04 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:04 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__248']/div/div/button/div[2]'.
+
+2021-02-24 13:42:05 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:42:05 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType_position.png
+
+2021-02-24 13:42:05 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:05 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:05 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' was broken. Propose an alternative one: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/div_arrow-down_CleanType' is clicked on
+
+2021-02-24 13:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/li_Clean-and-Laundry")): Object: 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' is clicked on
+
+2021-02-24 13:42:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__248']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry'. Try using Self-healing.
+
+2021-02-24 13:42:07 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:07 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__248']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:42:08 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาด'])[1]/following::li[1]'.
+
+2021-02-24 13:42:08 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry_neighbor.png
+
+2021-02-24 13:42:08 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:08 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ทำความสะอาด'])[1]/following::li[1]'.
+
+2021-02-24 13:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/li_Clean-and-Laundry' is clicked on
+
+2021-02-24 13:42:08 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/label_IgotCat")): Object: 'Object Repository/Used/zElement-Bluuu/label_IgotCat' is clicked on
+
+2021-02-24 13:42:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__251']/div/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/label_IgotCat'. Try using Self-healing.
+
+2021-02-24 13:42:10 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:10 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__251']/div/label'.
+
+2021-02-24 13:42:11 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:42:11 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/label_IgotCat_neighbor.png
+
+2021-02-24 13:42:11 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:11 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/label_IgotCat' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/label_IgotCat' is clicked on
+
+2021-02-24 13:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/label_IgotDog")): Object: 'Object Repository/Used/zElement-Bluuu/label_IgotDog' is clicked on
+
+2021-02-24 13:42:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__251']/div[2]/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/label_IgotDog'. Try using Self-healing.
+
+2021-02-24 13:42:13 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:14 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__251']/div[2]/label'.
+
+2021-02-24 13:42:14 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:42:14 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/label_IgotDog_neighbor.png
+
+2021-02-24 13:42:14 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:14 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/label_IgotDog' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/label_IgotDog' is clicked on
+
+2021-02-24 13:42:14 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/span_I Accept")): Object: 'Object Repository/Used/zElement-Bluuu/span_I Accept' is clicked on
+
+2021-02-24 13:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/span_I Accept' is clicked on
+
+2021-02-24 13:42:15 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_BookNow")): Object: 'Object Repository/Used/zElement-Bluuu/button_BookNow' is clicked on
+
+2021-02-24 13:42:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_BookNow' is clicked on
+
+2021-02-24 13:42:15 - [TEST_STEP][PASSED] - setText(findTestObject("Used/zElement-Bluuu/input_Promotion-Code"), "WELCOME30"): Text 'WELCOME30' is set on object 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code'
+
+2021-02-24 13:42:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__292']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code'. Try using Self-healing.
+
+2021-02-24 13:42:18 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__292']'.
+
+2021-02-24 13:42:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__291']/div/div/input'.
+
+2021-02-24 13:42:19 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input'.
+
+2021-02-24 13:42:19 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Promotion-Code_position.png
+
+2021-02-24 13:42:19 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:19 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code' was broken. Propose an alternative one: '//input'.
+
+2021-02-24 13:42:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__292']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:42:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code'. Try using Self-healing.
+
+2021-02-24 13:42:22 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__292']'.
+
+2021-02-24 13:42:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__291']/div/div/input'.
+
+2021-02-24 13:42:22 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input'.
+
+2021-02-24 13:42:23 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/input_Promotion-Code_position.png
+
+2021-02-24 13:42:23 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:42:23 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:42:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code' was broken. Propose an alternative one: '//input'.
+
+2021-02-24 13:42:23 - [MESSAGE][PASSED] - Text 'WELCOME30' is set on object 'Object Repository/Used/zElement-Bluuu/input_Promotion-Code'
+
+2021-02-24 13:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_Use-Promotion-Code")): Object: 'Object Repository/Used/zElement-Bluuu/button_Use-Promotion-Code' is clicked on
+
+2021-02-24 13:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_Use-Promotion-Code' is clicked on
+
+2021-02-24 13:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_Confirming-From-Promotion")): Object: 'Object Repository/Used/zElement-Bluuu/button_Confirming-From-Promotion' is clicked on
+
+2021-02-24 13:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_Confirming-From-Promotion' is clicked on
+
+2021-02-24 13:42:23 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page-Payment/a_ClckPromptPay")): Object: 'Object Repository/Used/Page-Payment/a_ClckPromptPay' is clicked on
+
+2021-02-24 13:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page-Payment/a_ClckPromptPay' is clicked on
+
+2021-02-24 13:42:27 - [TEST_STEP][PASSED] - setText(findTestObject("Used/Page-Payment/input_TxtPromptPayName"), "test"): Text 'test' is set on object 'Object Repository/Used/Page-Payment/input_TxtPromptPayName'
+
+2021-02-24 13:42:28 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Used/Page-Payment/input_TxtPromptPayName'
+
+2021-02-24 13:42:28 - [TEST_STEP][PASSED] - click(findTestObject("Used/Page-Payment/input_BtnPromptPaySubmit")): Object: 'Object Repository/Used/Page-Payment/input_BtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:42:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/Page-Payment/input_BtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:42:28 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Used/zElement-Bluuu/button_MyPayment"), 360): Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:43:11 - [MESSAGE][PASSED] - Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_MyPayment")): Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:43:13 - [TEST_STEP][PASSED] - get_dura = getText(findTestObject("Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura")): Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' is: 'ครั้งเดียว: 3 ชม.'
+
+2021-02-24 13:43:15 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='__BVID__166']/tbody/tr/td[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:15 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura'. Try using Self-healing.
+
+2021-02-24 13:43:15 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:15 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='__BVID__166']/tbody/tr/td[2]'.
+
+2021-02-24 13:43:15 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ราคา'])[1]/following::td[2]'.
+
+2021-02-24 13:43:16 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura_neighbor.png
+
+2021-02-24 13:43:16 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:16 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ราคา'])[1]/following::td[2]'.
+
+2021-02-24 13:43:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/dura' is: 'ครั้งเดียว: 3 ชม.'
+
+2021-02-24 13:43:16 - [TEST_STEP][PASSED] - get_start = getText(findTestObject("Object Repository/Used/zElement-Bluuu/Page_Bluuu/start")): Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' is: '23 มี.ค. 2021, 06:30'
+
+2021-02-24 13:43:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //table[@id='__BVID__166']/tbody/tr/td[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start'. Try using Self-healing.
+
+2021-02-24 13:43:18 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='__BVID__166']/tbody/tr/td[3]'.
+
+2021-02-24 13:43:18 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ครั้งเดียว: 3 ชม.'])[1]/following::td[1]'.
+
+2021-02-24 13:43:19 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/Used/zElement-Bluuu/Page_Bluuu/start_neighbor.png
+
+2021-02-24 13:43:19 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:19 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ครั้งเดียว: 3 ชม.'])[1]/following::td[1]'.
+
+2021-02-24 13:43:19 - [MESSAGE][PASSED] - Text of object 'Object Repository/Used/zElement-Bluuu/Page_Bluuu/start' is: '23 มี.ค. 2021, 06:30'
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - if (get_dura == "ครั้งเดียว: 3 ชม."): null
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - a = 1: null
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - if (get_start == "23 มี.ค. 2021, 06:30"): null
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - b = 1: null
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - if (a + b == 2): Browser is closed
+
+2021-02-24 13:43:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-24 13:43:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before)" time="109.896" classname="Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before)" status="PASSED">
+         <system-out><![CDATA[2021-02-24 13:43:19 - [TEST_CASE][PASSED] - Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before): Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before)
+
+2021-02-24 13:43:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-24 13:43:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-24 13:43:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-24 13:43:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-24 13:43:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-24 13:43:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-24 13:43:21 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.bluuu.co/"): Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:43:27 - [MESSAGE][PASSED] - Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1")): Object: 'Object Repository/By Case/15/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1' is clicked on
+
+2021-02-24 13:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1' is clicked on
+
+2021-02-24 13:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu -/button_ Facebook")): Object: 'Object Repository/By Case/15/Page_Bluuu -/button_ Facebook' is clicked on
+
+2021-02-24 13:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu -/button_ Facebook' is clicked on
+
+2021-02-24 13:43:28 - [TEST_STEP][PASSED] - switchToWindowTitle("Facebook"): Switched to window with title: 'Facebook'
+
+2021-02-24 13:43:29 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2021-02-24 13:43:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/15/Page_Facebook/input__email"), "qmkecjunto_1612852822@tfbnw.net"): Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/By Case/15/Page_Facebook/input__email'
+
+2021-02-24 13:43:30 - [MESSAGE][PASSED] - Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/By Case/15/Page_Facebook/input__email'
+
+2021-02-24 13:43:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/By Case/15/Page_Facebook/input__pass"), "gOP7IdE590r7JITAEPMRJQ=="): Text ****** has been set on object 'Object Repository/By Case/15/Page_Facebook/input__pass'
+
+2021-02-24 13:43:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/By Case/15/Page_Facebook/input__pass'
+
+2021-02-24 13:43:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/By Case/15/Page_Facebook/input__pass"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/By Case/15/Page_Facebook/input__pass'
+
+2021-02-24 13:43:31 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/By Case/15/Page_Facebook/input__pass'
+
+2021-02-24 13:43:31 - [TEST_STEP][PASSED] - switchToWindowTitle("Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"): Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:43:31 - [MESSAGE][PASSED] - Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:43:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-02-24 13:43:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-02-24 13:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu -/a_")): Object: 'Object Repository/By Case/15/Page_Bluuu -/a_' is clicked on
+
+2021-02-24 13:43:36 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu -/a_' is clicked on
+
+2021-02-24 13:43:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_  Bluuu -/a_")): Object: 'Object Repository/By Case/15/Page_  Bluuu -/a_' is clicked on
+
+2021-02-24 13:43:38 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_  Bluuu -/a_' is clicked on
+
+2021-02-24 13:43:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/div__arrow-down")): Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down' is clicked on
+
+2021-02-24 13:43:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__299']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:40 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down'. Try using Self-healing.
+
+2021-02-24 13:43:40 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__299']/div/div/button/div[2]'.
+
+2021-02-24 13:43:41 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:41 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/div__arrow-down_position.png
+
+2021-02-24 13:43:41 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:41 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:41 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down' was broken. Propose an alternative one: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:41 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down' is clicked on
+
+2021-02-24 13:43:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/li_ 2")): Object: 'Object Repository/By Case/15/Page_Bluuu/li_ 2' is clicked on
+
+2021-02-24 13:43:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__299']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:43 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/li_ 2'. Try using Self-healing.
+
+2021-02-24 13:43:43 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:44 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__299']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:43:44 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:43:44 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/li_ 2_neighbor.png
+
+2021-02-24 13:43:44 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:44 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:44 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/li_ 2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/li_ 2' is clicked on
+
+2021-02-24 13:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1")): Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1' is clicked on
+
+2021-02-24 13:43:46 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__303']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:46 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1'. Try using Self-healing.
+
+2021-02-24 13:43:46 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__303']/div/div/button/div[2]'.
+
+2021-02-24 13:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:47 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_position.png
+
+2021-02-24 13:43:47 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:47 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:47 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1' was broken. Propose an alternative one: '//div[4]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:47 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1' is clicked on
+
+2021-02-24 13:43:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/li_")): Object: 'Object Repository/By Case/15/Page_Bluuu/li_' is clicked on
+
+2021-02-24 13:43:49 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__303']/div/div/div/ul/li[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:49 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/li_'. Try using Self-healing.
+
+2021-02-24 13:43:49 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:50 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__303']/div/div/div/ul/li[2]'.
+
+2021-02-24 13:43:50 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[4]/following::li[1]'.
+
+2021-02-24 13:43:50 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/li__neighbor.png
+
+2021-02-24 13:43:50 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:50 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:50 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/li_' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[4]/following::li[1]'.
+
+2021-02-24 13:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/li_' is clicked on
+
+2021-02-24 13:43:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2")): Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2' is clicked on
+
+2021-02-24 13:43:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__301']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2'. Try using Self-healing.
+
+2021-02-24 13:43:52 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:53 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__301']/div/div/button/div[2]'.
+
+2021-02-24 13:43:53 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:53 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_position.png
+
+2021-02-24 13:43:53 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:53 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:53 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2' was broken. Propose an alternative one: '//div[3]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2' is clicked on
+
+2021-02-24 13:43:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/li_2")): Object: 'Object Repository/By Case/15/Page_Bluuu/li_2' is clicked on
+
+2021-02-24 13:43:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__301']/div/div/div/ul/li[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:43:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/li_2'. Try using Self-healing.
+
+2021-02-24 13:43:55 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:56 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__301']/div/div/div/ul/li[2]'.
+
+2021-02-24 13:43:56 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[1]'.
+
+2021-02-24 13:43:56 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/li_2_neighbor.png
+
+2021-02-24 13:43:56 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:43:56 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:43:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/li_2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[3]/following::li[1]'.
+
+2021-02-24 13:43:56 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/li_2' is clicked on
+
+2021-02-24 13:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon")): Object: 'Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon")): Object: 'Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:43:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/span_25")): Object: 'Object Repository/By Case/15/Page_Bluuu/span_25' is clicked on
+
+2021-02-24 13:44:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__230']/div/div/div/div/div/div/div[2]/div[36]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/span_25'. Try using Self-healing.
+
+2021-02-24 13:44:00 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__230']/div/div/div/div/div/div/div[2]/div[36]/div/div/span'.
+
+2021-02-24 13:44:00 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[29]'.
+
+2021-02-24 13:44:01 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/span_25_neighbor.png
+
+2021-02-24 13:44:01 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:01 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/span_25' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[29]'.
+
+2021-02-24 13:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/span_25' is clicked on
+
+2021-02-24 13:44:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3")): Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3' is clicked on
+
+2021-02-24 13:44:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__227']/div/div[2]/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3'. Try using Self-healing.
+
+2021-02-24 13:44:03 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:03 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__227']/div/div[2]/button/div[2]'.
+
+2021-02-24 13:44:03 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button/div[2]'.
+
+2021-02-24 13:44:04 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3_position.png
+
+2021-02-24 13:44:04 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:04 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3' was broken. Propose an alternative one: '//button/div[2]'.
+
+2021-02-24 13:44:04 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3' is clicked on
+
+2021-02-24 13:44:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/li_0700")): Object: 'Object Repository/By Case/15/Page_Bluuu/li_0700' is clicked on
+
+2021-02-24 13:44:06 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__227']/div/div[2]/div/ul/li[4]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:06 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/li_0700'. Try using Self-healing.
+
+2021-02-24 13:44:06 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:06 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__227']/div/div[2]/div/ul/li[4]'.
+
+2021-02-24 13:44:07 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[3]'.
+
+2021-02-24 13:44:07 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/li_0700_neighbor.png
+
+2021-02-24 13:44:07 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:07 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/li_0700' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[3]'.
+
+2021-02-24 13:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/li_0700' is clicked on
+
+2021-02-24 13:44:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/label_")): Object: 'Object Repository/By Case/15/Page_Bluuu/label_' is clicked on
+
+2021-02-24 13:44:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__306']/div/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/label_'. Try using Self-healing.
+
+2021-02-24 13:44:09 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:09 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__306']/div/label'.
+
+2021-02-24 13:44:10 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:44:10 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/label__neighbor.png
+
+2021-02-24 13:44:10 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:10 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/label_' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ข้อมูลเพิ่มเติม'])[1]/following::label[1]'.
+
+2021-02-24 13:44:10 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/label_' is clicked on
+
+2021-02-24 13:44:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/label__1")): Object: 'Object Repository/By Case/15/Page_Bluuu/label__1' is clicked on
+
+2021-02-24 13:44:12 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__306']/div[2]/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:12 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/label__1'. Try using Self-healing.
+
+2021-02-24 13:44:12 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:13 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='__BVID__306']/div[2]/label'.
+
+2021-02-24 13:44:13 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:44:13 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/label__1_neighbor.png
+
+2021-02-24 13:44:13 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:13 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:13 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/label__1' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ฉันมีแมว'])[1]/following::label[1]'.
+
+2021-02-24 13:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/label__1' is clicked on
+
+2021-02-24 13:44:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/span_")): Object: 'Object Repository/By Case/15/Page_Bluuu/span_' is clicked on
+
+2021-02-24 13:44:14 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/span_' is clicked on
+
+2021-02-24 13:44:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/15/Page_Bluuu/input____BVID__288"), "paragon"): Text 'paragon' is set on object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288'
+
+2021-02-24 13:44:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__288']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:16 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288'. Try using Self-healing.
+
+2021-02-24 13:44:16 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__288']'.
+
+2021-02-24 13:44:16 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div/div/input'.
+
+2021-02-24 13:44:17 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:44:17 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/input____BVID__288_position.png
+
+2021-02-24 13:44:17 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:17 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:44:19 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__288']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:19 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288'. Try using Self-healing.
+
+2021-02-24 13:44:19 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__288']'.
+
+2021-02-24 13:44:20 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div/div/input'.
+
+2021-02-24 13:44:20 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:44:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/input____BVID__288_position.png
+
+2021-02-24 13:44:20 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:20 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:44:20 - [MESSAGE][PASSED] - Text 'paragon' is set on object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__288'
+
+2021-02-24 13:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex")): Object: 'Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:44:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__287']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex'. Try using Self-healing.
+
+2021-02-24 13:44:23 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div[2]/div/div/div'.
+
+2021-02-24 13:44:23 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:44:23 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex_neighbor.png
+
+2021-02-24 13:44:23 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:23 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/button_")): Object: 'Object Repository/By Case/15/Page_Bluuu/button_' is clicked on
+
+2021-02-24 13:44:24 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/button_' is clicked on
+
+2021-02-24 13:44:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/15/Page_Bluuu/input____BVID__444"), "WELCOME30"): Text 'WELCOME30' is set on object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444'
+
+2021-02-24 13:44:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__444']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444'. Try using Self-healing.
+
+2021-02-24 13:44:26 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__444']'.
+
+2021-02-24 13:44:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__443']/div/div/input'.
+
+2021-02-24 13:44:27 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input'.
+
+2021-02-24 13:44:27 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/input____BVID__444_position.png
+
+2021-02-24 13:44:27 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:27 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444' was broken. Propose an alternative one: '//input'.
+
+2021-02-24 13:44:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__444']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:44:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444'. Try using Self-healing.
+
+2021-02-24 13:44:29 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__444']'.
+
+2021-02-24 13:44:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__443']/div/div/input'.
+
+2021-02-24 13:44:30 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//input'.
+
+2021-02-24 13:44:30 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/15/Page_Bluuu/input____BVID__444_position.png
+
+2021-02-24 13:44:30 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:44:30 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:44:30 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444' was broken. Propose an alternative one: '//input'.
+
+2021-02-24 13:44:31 - [MESSAGE][PASSED] - Text 'WELCOME30' is set on object 'Object Repository/By Case/15/Page_Bluuu/input____BVID__444'
+
+2021-02-24 13:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/button__1")): Object: 'Object Repository/By Case/15/Page_Bluuu/button__1' is clicked on
+
+2021-02-24 13:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/button__1' is clicked on
+
+2021-02-24 13:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_Bluuu/button__1_2")): Object: 'Object Repository/By Case/15/Page_Bluuu/button__1_2' is clicked on
+
+2021-02-24 13:44:31 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_Bluuu/button__1_2' is clicked on
+
+2021-02-24 13:44:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_/a_")): Object: 'Object Repository/By Case/15/Page_/a_' is clicked on
+
+2021-02-24 13:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_/a_' is clicked on
+
+2021-02-24 13:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/15/Page_/input__ctl00mainTxtPromptPayName"), "test"): Text 'test' is set on object 'Object Repository/By Case/15/Page_/input__ctl00mainTxtPromptPayName'
+
+2021-02-24 13:44:35 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/By Case/15/Page_/input__ctl00mainTxtPromptPayName'
+
+2021-02-24 13:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/15/Page_/input__ctl00mainBtnPromptPaySubmit")): Object: 'Object Repository/By Case/15/Page_/input__ctl00mainBtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:44:36 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/15/Page_/input__ctl00mainBtnPromptPaySubmit' is clicked on
+
+2021-02-24 13:44:36 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Used/zElement-Bluuu/button_MyPayment"), 360): Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clickable
+
+2021-02-24 13:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Used/zElement-Bluuu/button_MyPayment")): Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Used/zElement-Bluuu/button_MyPayment' is clicked on
+
+2021-02-24 13:45:07 - [TEST_STEP][PASSED] - get_dura = getText(findTestObject("Object Repository/By Case/15/Page_Bluuu/td_ 2")): Text of object 'Object Repository/By Case/15/Page_Bluuu/td_ 2' is: 'ครั้งเดียว: 2 ชม.'
+
+2021-02-24 13:45:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/By Case/15/Page_Bluuu/td_ 2' is: 'ครั้งเดียว: 2 ชม.'
+
+2021-02-24 13:45:08 - [TEST_STEP][PASSED] - get_start = getText(findTestObject("Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700")): Text of object 'Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700' is: '25 เม.ย. 2021, 07:00'
+
+2021-02-24 13:45:09 - [MESSAGE][PASSED] - Text of object 'Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700' is: '25 เม.ย. 2021, 07:00'
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - if (get_dura == "ครั้งเดียว: 2 ชม."): null
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - a = 1: null
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - if (get_start == "25 เม.ย. 2021, 07:00"): null
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - b = 1: null
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - if (a + b == 2): Browser is closed
+
+2021-02-24 13:45:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-02-24 13:45:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before)" time="55.176" classname="Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/By Case/15/Page_/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 16_Normal OTA (login before).run(16_Normal OTA (login before):78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/By Case/15/Page_/a_' located by '//a[@id='LiPromptPay_Scrollbar']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-02-24 13:45:09 - [TEST_CASE][FAILED] - Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before): Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/By Case/15/Page_/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 16_Normal OTA (login before).run(16_Normal OTA (login before):78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/By Case/15/Page_/a_' located by '//a[@id='LiPromptPay_Scrollbar']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-02-24 13:45:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-02-24 13:45:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-24 13:45:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-24 13:45:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-02-24 13:45:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-02-24 13:45:11 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-24 13:45:11 - [TEST_STEP][PASSED] - navigateToUrl("https://uat.bluuu.co/"): Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:45:14 - [MESSAGE][PASSED] - Navigate to 'https://uat.bluuu.co/' successfully
+
+2021-02-24 13:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1")): Object: 'Object Repository/By Case/16/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1' is clicked on
+
+2021-02-24 13:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1' is clicked on
+
+2021-02-24 13:45:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu -/button_ Facebook")): Object: 'Object Repository/By Case/16/Page_Bluuu -/button_ Facebook' is clicked on
+
+2021-02-24 13:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu -/button_ Facebook' is clicked on
+
+2021-02-24 13:45:15 - [TEST_STEP][PASSED] - switchToWindowTitle("Facebook"): Switched to window with title: 'Facebook'
+
+2021-02-24 13:45:17 - [MESSAGE][PASSED] - Switched to window with title: 'Facebook'
+
+2021-02-24 13:45:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/16/Page_Facebook/input__email"), "qmkecjunto_1612852822@tfbnw.net"): Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/By Case/16/Page_Facebook/input__email'
+
+2021-02-24 13:45:18 - [MESSAGE][PASSED] - Text 'qmkecjunto_1612852822@tfbnw.net' is set on object 'Object Repository/By Case/16/Page_Facebook/input__email'
+
+2021-02-24 13:45:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/By Case/16/Page_Facebook/input__pass"), "gOP7IdE590r7JITAEPMRJQ=="): Text ****** has been set on object 'Object Repository/By Case/16/Page_Facebook/input__pass'
+
+2021-02-24 13:45:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/By Case/16/Page_Facebook/input__pass'
+
+2021-02-24 13:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Facebook/label__loginbutton")): Object: 'Object Repository/By Case/16/Page_Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Facebook/label__loginbutton' is clicked on
+
+2021-02-24 13:45:19 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+2021-02-24 13:45:26 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+2021-02-24 13:45:26 - [TEST_STEP][PASSED] - switchToWindowTitle("Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"): Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:45:26 - [MESSAGE][PASSED] - Switched to window with title: 'Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด'
+
+2021-02-24 13:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu -/a_")): Object: 'Object Repository/By Case/16/Page_Bluuu -/a_' is clicked on
+
+2021-02-24 13:45:26 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu -/a_' is clicked on
+
+2021-02-24 13:45:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_  Bluuu -/a_")): Object: 'Object Repository/By Case/16/Page_  Bluuu -/a_' is clicked on
+
+2021-02-24 13:45:28 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_  Bluuu -/a_' is clicked on
+
+2021-02-24 13:45:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon")): Object: 'Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:45:29 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:45:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon")): Object: 'Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:45:30 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon' is clicked on
+
+2021-02-24 13:45:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/span_25")): Object: 'Object Repository/By Case/16/Page_Bluuu/span_25' is clicked on
+
+2021-02-24 13:45:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__230']/div/div/div/div/div/div/div[2]/div[36]/div/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/span_25'. Try using Self-healing.
+
+2021-02-24 13:45:32 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__230']/div/div/div/div/div/div/div[2]/div[36]/div/div/span'.
+
+2021-02-24 13:45:32 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[29]'.
+
+2021-02-24 13:45:33 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/span_25_neighbor.png
+
+2021-02-24 13:45:33 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:33 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:33 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/span_25' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ส'])[1]/following::span[29]'.
+
+2021-02-24 13:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/span_25' is clicked on
+
+2021-02-24 13:45:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/div__arrow-down")): Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down' is clicked on
+
+2021-02-24 13:45:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__227']/div/div[2]/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:35 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down'. Try using Self-healing.
+
+2021-02-24 13:45:35 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__227']/div/div[2]/button/div[2]'.
+
+2021-02-24 13:45:35 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//button/div[2]'.
+
+2021-02-24 13:45:36 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/div__arrow-down_position.png
+
+2021-02-24 13:45:36 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:36 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:36 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down' was broken. Propose an alternative one: '//button/div[2]'.
+
+2021-02-24 13:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down' is clicked on
+
+2021-02-24 13:45:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/li_0730")): Object: 'Object Repository/By Case/16/Page_Bluuu/li_0730' is clicked on
+
+2021-02-24 13:45:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__227']/div/div[2]/div/ul/li[5]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:38 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/li_0730'. Try using Self-healing.
+
+2021-02-24 13:45:38 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__227']/div/div[2]/div/ul/li[5]'.
+
+2021-02-24 13:45:38 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[4]'.
+
+2021-02-24 13:45:39 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/li_0730_neighbor.png
+
+2021-02-24 13:45:39 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:39 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:39 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/li_0730' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)=concat('No results matched ', '"', '', '"', '')])[1]/following::li[4]'.
+
+2021-02-24 13:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/li_0730' is clicked on
+
+2021-02-24 13:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1")): Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1' is clicked on
+
+2021-02-24 13:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1' is clicked on
+
+2021-02-24 13:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/li_3")): Object: 'Object Repository/By Case/16/Page_Bluuu/li_3' is clicked on
+
+2021-02-24 13:45:40 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/li_3' is clicked on
+
+2021-02-24 13:45:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/By Case/16/Page_Bluuu/input____BVID__288"), "paragon"): Text 'paragon' is set on object 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288'
+
+2021-02-24 13:45:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__288']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288'. Try using Self-healing.
+
+2021-02-24 13:45:42 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__288']'.
+
+2021-02-24 13:45:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div/div/input'.
+
+2021-02-24 13:45:43 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:45:43 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/input____BVID__288_position.png
+
+2021-02-24 13:45:43 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:43 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:45:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='__BVID__288']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:45 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288'. Try using Self-healing.
+
+2021-02-24 13:45:45 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:45 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//input[@id='__BVID__288']'.
+
+2021-02-24 13:45:46 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div/div/input'.
+
+2021-02-24 13:45:46 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:45:46 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/input____BVID__288_position.png
+
+2021-02-24 13:45:46 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:46 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:46 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288' was broken. Propose an alternative one: '//fieldset/div/div/div/input'.
+
+2021-02-24 13:45:46 - [MESSAGE][PASSED] - Text 'paragon' is set on object 'Object Repository/By Case/16/Page_Bluuu/input____BVID__288'
+
+2021-02-24 13:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex")): Object: 'Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:45:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__287']/div/div[2]/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:48 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex'. Try using Self-healing.
+
+2021-02-24 13:45:48 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:49 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__287']/div/div[2]/div/div/div'.
+
+2021-02-24 13:45:49 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:45:49 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex_neighbor.png
+
+2021-02-24 13:45:49 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:49 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:49 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='ระบุสถานที่ทำงาน'])[1]/following::div[9]'.
+
+2021-02-24 13:45:49 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex' is clicked on
+
+2021-02-24 13:45:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2")): Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2' is clicked on
+
+2021-02-24 13:45:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__300']/div/div/button/div[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2'. Try using Self-healing.
+
+2021-02-24 13:45:51 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__300']/div/div/button/div[2]'.
+
+2021-02-24 13:45:52 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:45:52 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_position.png
+
+2021-02-24 13:45:52 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:52 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2' was broken. Propose an alternative one: '//div[3]/div[2]/fieldset/div/div/button/div[2]'.
+
+2021-02-24 13:45:52 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2' is clicked on
+
+2021-02-24 13:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/li_ 2")): Object: 'Object Repository/By Case/16/Page_Bluuu/li_ 2' is clicked on
+
+2021-02-24 13:45:55 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //fieldset[@id='__BVID__300']/div/div/div/ul/li[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:45:55 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/16/Page_Bluuu/li_ 2'. Try using Self-healing.
+
+2021-02-24 13:45:55 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:55 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//fieldset[@id='__BVID__300']/div/div/div/ul/li[3]'.
+
+2021-02-24 13:45:55 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:45:55 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Katesopon/git/Katalon-GitTestRepo/Reports/Self-healing/Object Repository/By Case/16/Page_Bluuu/li_ 2_neighbor.png
+
+2021-02-24 13:45:55 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:45:55 - [MESSAGE][ERROR] - [SELF-HEALING] C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing\broken-test-objects.json does not exist or is provided by Self-healing Plugin!
+
+2021-02-24 13:45:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/By Case/16/Page_Bluuu/li_ 2' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='คอนโด 1 ห้องนอน'])[1]/following::li[1]'.
+
+2021-02-24 13:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/li_ 2' is clicked on
+
+2021-02-24 13:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3")): Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3' is clicked on
+
+2021-02-24 13:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3' is clicked on
+
+2021-02-24 13:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/li_")): Object: 'Object Repository/By Case/16/Page_Bluuu/li_' is clicked on
+
+2021-02-24 13:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/li_' is clicked on
+
+2021-02-24 13:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/span_")): Object: 'Object Repository/By Case/16/Page_Bluuu/span_' is clicked on
+
+2021-02-24 13:45:57 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/span_' is clicked on
+
+2021-02-24 13:45:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/button_")): Object: 'Object Repository/By Case/16/Page_Bluuu/button_' is clicked on
+
+2021-02-24 13:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/button_' is clicked on
+
+2021-02-24 13:45:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/By Case/16/Page_Bluuu/button__1")): Object: 'Object Repository/By Case/16/Page_Bluuu/button__1' is clicked on
+
+2021-02-24 13:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/By Case/16/Page_Bluuu/button__1' is clicked on
+
+2021-02-24 13:45:58 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/By Case/15/Page_/a_")): Unable to click on object 'Object Repository/By Case/15/Page_/a_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/By Case/15/Page_/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 16_Normal OTA (login before).run(16_Normal OTA (login before):78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/By Case/15/Page_/a_' located by '//a[@id='LiPromptPay_Scrollbar']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1614062485157.run(Script1614062485157.groovy:78)
+	... 13 more
+)
+
+2021-02-24 13:46:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='LiPromptPay_Scrollbar']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:46:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/By Case/15/Page_/a_'. Try using Self-healing.
+
+2021-02-24 13:46:00 - [MESSAGE][ERROR] - [SELF-HEALING] com.google.gson.stream.MalformedJsonException: Expected ':' at line 135 column 10 path $.brokenTestObjects[13].<<<<<<<
+
+2021-02-24 13:46:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[@id='LiPromptPay_Scrollbar']'.
+
+2021-02-24 13:46:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//li[@id='ctl00_main_LiPromptPay']/a'.
+
+2021-02-24 13:46:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[1]/following::a[1]'.
+
+2021-02-24 13:46:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='จ่ายเต็มจำนวน'])[1]/following::a[1]'.
+
+2021-02-24 13:46:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='บัตรเครดิต - บัตรเดบิต (ATM)'])[2]/preceding::a[1]'.
+
+2021-02-24 13:46:02 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a[contains(@href, '#promtpay')]'.
+
+2021-02-24 13:46:02 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//li[2]/a'.
+
+2021-02-24 13:46:02 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PAE3MHPM', ip: '192.168.1.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\KATESO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 442230b263cde41d2cd5a00806f40a8c.
+
+2021-02-24 13:46:02 - [MESSAGE][ERROR] - [SELF-HEALING] Cannot save screenshot to: C:\Users\Katesopon\git\Katalon-GitTestRepo\Reports\Self-healing, reason: unknown error: unhandled inspector error: {"code":-32000,"message":"Cannot take screenshot with 0 width."}
+  (Session info: chrome=88.0.4324.182)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-PAE3MHPM', ip: '192.168.1.139', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\KATESO~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 442230b263cde41d2cd5a00806f40a8c.
+
+2021-02-24 13:46:02 - [MESSAGE][WARNING] - [SELF-HEALING] 'other' is different type of Path
+
+2021-02-24 13:46:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'LiPromptPay_Scrollbar' and @href = '#promtpay' and (text() = '
+                                                                
+                                                                    
+                                                                        
+                                                                    
+                                                                    
+                                                                        พร้อมเพย์
+                                                                    
+                                                                
+                                                            ' or . = '
+                                                                
+                                                                    
+                                                                        
+                                                                    
+                                                                    
+                                                                        พร้อมเพย์
+                                                                    
+                                                                
+                                                            ')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:46:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #LiPromptPay_Scrollbar'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-24 13:46:04 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/By Case/15/Page_/a_' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/By Case/15/Page_/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 16_Normal OTA (login before).run(16_Normal OTA (login before):78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/By Case/15/Page_/a_' located by '//a[@id='LiPromptPay_Scrollbar']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1614062485157.run(Script1614062485157.groovy:78)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\Katesopon\\git\\Katalon-GitTestRepo\\Reports\\20210224_133902\\OTA\\20210224_133902\\1614149164581.png]]]]></system-out>
+         <system-err><![CDATA[2021-02-24 13:45:09 - [TEST_CASE][FAILED] - Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before): Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/By Case/15/Page_/a_'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:619)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at 16_Normal OTA (login before).run(16_Normal OTA (login before):78)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/By Case/15/Page_/a_' located by '//a[@id='LiPromptPay_Scrollbar']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1368)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-24 13:39:05 - [TEST_SUITE][ERROR] - OTA: Test Cases/Login before use a service/09_Normal OTA (login before) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: b for class: Script1613980071054
+	at 09_Normal OTA (login before).run(09_Normal OTA (login before):117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-02-24 13:39:05 - [TEST_SUITE][ERROR] - OTA: Test Cases/Login before use a service/09_Normal OTA (login before) FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: b for class: Script1613980071054
+	at 09_Normal OTA (login before).run(09_Normal OTA (login before):117)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614148742671.run(TempTestSuite1614148742671.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

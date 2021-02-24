@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/img_TH_avatar_Login",
+      "brokenLocator": "//button[@id\u003d\u0027__BVID__141__BV_toggle_\u0027]/img",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@id\u003d\u0027__BVID__141__BV_toggle_\u0027]/img",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_135948/Login Case/20210224_135949/Object Repository/Used/zElement-Bluuu/img_TH_avatar_Login_idRelative.png"
+    }
+  ]
+}

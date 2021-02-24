@@ -1,0 +1,514 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/19/Page_Bluuu/textarea____BVID__200",
+      "brokenLocator": "//textarea[@id\u003d\u0027__BVID__200\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/19/Page_Bluuu/textarea____BVID__200_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/19/Page_Bluuu/p_ 500",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__199\u0027]/div/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีสุนัข\u0027])[1]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/19/Page_Bluuu/p_ 500_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/span_31",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__127\u0027]/div/div/div/div/div/div/div[2]/div[39]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[32]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/span_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/li_0600",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/li_0600_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/input____BVID__185",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__185\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/input____BVID__185_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/div_Town in Town Village",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__184\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/div_Town in Town Village_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/li_ 1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/li_ 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/li_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[3]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/li_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1_2_3",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/div__arrow-down_1_2_3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/li_",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[4]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/li__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/label_",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__196\u0027]/div/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ข้อมูลเพิ่มเติม\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/label__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/label__1",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__196\u0027]/div[2]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีแมว\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/label__1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/20/Page_Bluuu/textarea____BVID__200",
+      "brokenLocator": "//textarea[@id\u003d\u0027__BVID__200\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//textarea",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/20/Page_Bluuu/textarea____BVID__200_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/span_31",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__127\u0027]/div/div/div/div/div/div/div[2]/div[39]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[32]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/span_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/li_0600",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/li_0600_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/input____BVID__185",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__185\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/input____BVID__185_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/div_Town in Town Village",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__184\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/div_Town in Town Village_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/div_ 1 _arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/div_ 1 _arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/li_ 1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/li_ 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/li_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[3]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/li_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/div__arrow-down_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/li_",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[4]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/li__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/27/Page_Bluuu/input____BVID__282",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__282\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/27/Page_Bluuu/input____BVID__282_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/span_31",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__127\u0027]/div/div/div/div/div/div/div[2]/div[39]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[32]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/span_31_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/li_1900",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/div/ul/li[28]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[27]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/li_1900_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/input____BVID__185",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__185\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/input____BVID__185_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/div_Town in Town Village",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__184\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/div_Town in Town Village_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/li_ 1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/li_ 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/li_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[3]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/li_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2_3",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/div__arrow-down_1_2_3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/li_",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[4]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/li__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/29/Page_Bluuu/label_",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__196\u0027]/div/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ข้อมูลเพิ่มเติม\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/29/Page_Bluuu/label__neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/span_1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__127\u0027]/div/div/div/div/div/div/div[2]/div[14]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[7]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/span_1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/li_0600",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__124\u0027]/div/div[2]/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/li_0600_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/input____BVID__185",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__185\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/input____BVID__185_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/div_Town in Town Village",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__184\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/div_Town in Town Village_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/li_ 1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__189\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/li_ 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/li_2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__191\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[3]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/li_2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2_3",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/div__arrow-down_1_2_3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/P_USE/30/Page_Bluuu/li_",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__193\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[4]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_140954/Special Cases/20210224_140954/Object Repository/P_USE/30/Page_Bluuu/li__neighbor.png"
+    }
+  ]
+}

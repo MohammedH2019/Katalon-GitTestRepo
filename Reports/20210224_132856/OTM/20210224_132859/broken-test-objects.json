@@ -1,0 +1,244 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/div_RoomType",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__244\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/div_RoomType_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__244\u0027]/div/div/div/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027คอนโด 1 ห้องนอน\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/li_Condo2Bedroom_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/input_Location",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__233\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/input_Location_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__232\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/div_Paragon Cineplex_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/label_IgotCat",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__251\u0027]/div/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ข้อมูลเพิ่มเติม\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/label_IgotCat_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/zElement-Bluuu/label_IgotDog",
+      "brokenLocator": "//div[@id\u003d\u0027__BVID__251\u0027]/div[2]/label",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ฉันมีแมว\u0027])[1]/following::label[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/zElement-Bluuu/label_IgotDog_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Used/Picking-Maid/a_Pick-OneTimeManual",
+      "brokenLocator": "//a[@id\u003d\u0027__BVID__168___BV_tab_button__\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027เลือกแม่บ้านด้วยตนเอง\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/Used/Picking-Maid/a_Pick-OneTimeManual_link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__300\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/li_ 2",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__300\u0027]/div/div/div/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027คอนโด 1 ห้องนอน\u0027])[1]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/li_ 2_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/a_",
+      "brokenLocator": "//a[@id\u003d\u0027__BVID__223___BV_tab_button__\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027เลือกแม่บ้านด้วยตนเอง\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/a__link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/Date/Page_Bluuu/span_M4D21",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__175\u0027]/div/div/div/div/div/div/div[2]/div[32]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[25]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/Date/Page_Bluuu/span_M4D21_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/div__arrow-down_1_2_3",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__500\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/div__arrow-down_1_2_3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/li_0700",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__500\u0027]/div/div[2]/div/ul/li[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/li_0700_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/input____BVID__561",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__561\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/input____BVID__561_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/div_Paragon Cineplex",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__560\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/div_Paragon Cineplex_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/17/Page_Bluuu/input____BVID__919",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__919\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/17/Page_Bluuu/input____BVID__919_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/div__arrow-down",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__300\u0027]/div/div/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div[2]/fieldset/div/div/button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/div__arrow-down_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/li_ 1",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__300\u0027]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/li_ 1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/input____BVID__288",
+      "brokenLocator": "//input[@id\u003d\u0027__BVID__288\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//fieldset/div/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/input____BVID__288_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/div_Paragon Cineplex",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__287\u0027]/div/div[2]/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ระบุสถานที่ทำงาน\u0027])[1]/following::div[9]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/div_Paragon Cineplex_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/a_",
+      "brokenLocator": "//a[@id\u003d\u0027__BVID__223___BV_tab_button__\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027เลือกแม่บ้านด้วยตนเอง\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/a__link.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/Date/Page_Bluuu/span_M4D22",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__175\u0027]/div/div/div/div/div/div/div[2]/div[33]/div/div/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027ส\u0027])[1]/following::span[26]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/Date/Page_Bluuu/span_M4D22_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1_2_3",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__507\u0027]/div/div[2]/button/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/div__arrow-down_1_2_3_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/By Case/18/Page_Bluuu/li_0700",
+      "brokenLocator": "//fieldset[@id\u003d\u0027__BVID__507\u0027]/div/div[2]/div/ul/li[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003dconcat(\u0027No results matched \u0027, \u0027\"\u0027, \u0027\u0027, \u0027\"\u0027, \u0027\u0027)])[1]/following::li[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20210224_132856/OTM/20210224_132859/Object Repository/By Case/18/Page_Bluuu/li_0700_neighbor.png"
+    }
+  ]
+}
