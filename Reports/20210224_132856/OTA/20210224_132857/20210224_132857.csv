@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OTA,Chrome 88.0.4324.182,,,2021-02-24 13:29:07,2021-02-24 13:32:28,3m - 21.516s,FAILED
+,,,,,,,
+Test Cases/Login before use a service/09_Normal OTA (login before),Chrome 88.0.4324.182,,,2021-02-24 13:29:09,2021-02-24 13:29:34,24.479s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 13:29:11,2021-02-24 13:29:15,4.394s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:15,2021-02-24 13:29:18,2.440s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 13:29:18,2021-02-24 13:29:18,0.264s,PASSED
+"click(findTestObject(""Object Repository/Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:18,2021-02-24 13:29:19,1.131s,PASSED
+"click(findTestObject(""Object Repository/Used/zElement-Bluuu/button_ Facebook_Login""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:19,2021-02-24 13:29:20,0.730s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:20,2021-02-24 13:29:22,2.019s,PASSED
+"setText(findTestObject(""Object Repository/Used/001/Page-Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:22,2021-02-24 13:29:23,1.143s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Used/001/Page-Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 13:29:23,2021-02-24 13:29:24,0.695s,PASSED
+"click(findTestObject(""Object Repository/Used/001/Page-Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:24,2021-02-24 13:29:24,0.445s,PASSED
+delay(7),Chrome 88.0.4324.182,รอให้หน้าเพจโหลดก่อน,,2021-02-24 13:29:24,2021-02-24 13:29:31,7.082s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:31,2021-02-24 13:29:31,0.043s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/a_OneTimeService""))",Chrome 88.0.4324.182,จอง one time,,2021-02-24 13:29:31,2021-02-24 13:29:34,2.505s,FAILED
+,,,,,,,
+Test Cases/Login before use a service/10_OTA with Promotion (login before),Chrome 88.0.4324.182,,,2021-02-24 13:29:34,2021-02-24 13:30:25,51.567s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 13:29:34,2021-02-24 13:29:36,1.876s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:36,2021-02-24 13:29:39,2.700s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 13:29:39,2021-02-24 13:29:39,0.133s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:39,2021-02-24 13:29:40,1.025s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/button_ Facebook_Login""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:40,2021-02-24 13:29:41,0.586s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:41,2021-02-24 13:29:42,1.797s,PASSED
+"setText(findTestObject(""Used/Page-Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:42,2021-02-24 13:29:43,0.695s,PASSED
+"setEncryptedText(findTestObject(""Used/Page-Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 13:29:43,2021-02-24 13:29:44,0.693s,PASSED
+"click(findTestObject(""Used/Page-Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:44,2021-02-24 13:29:44,0.392s,PASSED
+delay(7),Chrome 88.0.4324.182,รอให้หน้าเพจโหลดก่อน,,2021-02-24 13:29:44,2021-02-24 13:29:51,7.003s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 13:29:51,2021-02-24 13:29:51,0.025s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/a_OneTimeService""))",Chrome 88.0.4324.182,จอง one time,,2021-02-24 13:29:51,2021-02-24 13:29:52,0.402s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/svg_NextMonth""))",Chrome 88.0.4324.182,เลื่อนเดือน,,2021-02-24 13:29:52,2021-02-24 13:29:53,1.223s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/span_M3D23""))",Chrome 88.0.4324.182,วันที่ 23 เดือน 3,,2021-02-24 13:29:53,2021-02-24 13:29:56,3.366s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/div_StartTime""))",Chrome 88.0.4324.182,เวลาเริ่มงาน,,2021-02-24 13:29:56,2021-02-24 13:29:59,2.940s,PASSED
+"click(findTestObject(""Used/Page_Bluuu/li_0630""))",Chrome 88.0.4324.182,,,2021-02-24 13:29:59,2021-02-24 13:30:03,3.393s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/div_RoomType""))",Chrome 88.0.4324.182,place,,2021-02-24 13:30:03,2021-02-24 13:30:06,3.083s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/li_Condo2Bedroom""))",Chrome 88.0.4324.182,condo 2 bedroom,,2021-02-24 13:30:06,2021-02-24 13:30:09,3.508s,PASSED
+"setText(findTestObject(""Used/zElement-Bluuu/input_Location""), ""paragon"")",Chrome 88.0.4324.182,,,2021-02-24 13:30:09,2021-02-24 13:30:16,6.775s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/div_Paragon Cineplex""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:16,2021-02-24 13:30:19,3.198s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/div_Duration""))",Chrome 88.0.4324.182,กำหนด duration,,2021-02-24 13:30:19,2021-02-24 13:30:20,0.451s,PASSED
+delay(1),Chrome 88.0.4324.182,,,2021-02-24 13:30:20,2021-02-24 13:30:21,1.002s,PASSED
+"click(findTestObject(""Used/Page_Bluuu/li_3 hours""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:21,2021-02-24 13:30:25,4.609s,FAILED
+,,,,,,,
+Test Cases/Make a service in charge tab (We login after serviced confirming)/15_OTA with Promotion (login before),Chrome 88.0.4324.182,,,2021-02-24 13:30:25,2021-02-24 13:31:23,58.070s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 13:30:26,2021-02-24 13:30:28,1.893s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 13:30:28,2021-02-24 13:30:28,0.137s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 13:30:28,2021-02-24 13:30:31,2.920s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:31,2021-02-24 13:30:31,0.551s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu -/button_ Facebook""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:31,2021-02-24 13:30:32,0.643s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 13:30:32,2021-02-24 13:30:35,2.422s,PASSED
+"setText(findTestObject(""Object Repository/By Case/15/Page_Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 13:30:35,2021-02-24 13:30:35,0.808s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/By Case/15/Page_Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 13:30:35,2021-02-24 13:30:36,0.663s,PASSED
+"sendKeys(findTestObject(""Object Repository/By Case/15/Page_Facebook/input__pass""), Keys.chord(ENTER))",Chrome 88.0.4324.182,,,2021-02-24 13:30:36,2021-02-24 13:30:36,0.426s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 13:30:36,2021-02-24 13:30:36,0.041s,PASSED
+delay(5),Chrome 88.0.4324.182,,,2021-02-24 13:30:36,2021-02-24 13:30:41,5.004s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:41,2021-02-24 13:30:42,0.411s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_  Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:42,2021-02-24 13:30:43,1.576s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:43,2021-02-24 13:30:47,3.645s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/li_ 2""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:47,2021-02-24 13:30:50,3.126s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:50,2021-02-24 13:30:51,0.465s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:51,2021-02-24 13:30:51,0.404s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:51,2021-02-24 13:30:52,0.777s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/li_2""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:52,2021-02-24 13:30:52,0.390s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:52,2021-02-24 13:30:53,0.544s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:53,2021-02-24 13:30:54,0.747s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/span_25""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:54,2021-02-24 13:30:57,3.150s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 13:30:57,2021-02-24 13:31:00,3.004s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/li_0700""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:00,2021-02-24 13:31:03,3.064s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/label_""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:03,2021-02-24 13:31:06,3.001s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/label__1""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:06,2021-02-24 13:31:09,3.168s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:09,2021-02-24 13:31:09,0.410s,PASSED
+"setText(findTestObject(""Object Repository/By Case/15/Page_Bluuu/input____BVID__288""), ""paragon"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:09,2021-02-24 13:31:16,6.683s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/div_Paragon Cineplex""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:16,2021-02-24 13:31:19,3.053s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_Bluuu/button_""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:19,2021-02-24 13:31:20,0.477s,PASSED
+"setText(findTestObject(""Object Repository/By Case/15/Page_Bluuu/input____BVID__444""), ""WELCOME30"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:20,2021-02-24 13:31:23,3.688s,FAILED
+,,,,,,,
+Test Cases/Make a service in charge tab (We login after serviced confirming)/16_Normal OTA (login before),Chrome 88.0.4324.182,,,2021-02-24 13:31:23,2021-02-24 13:32:28,1m - 5.211s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 13:31:24,2021-02-24 13:31:26,2.213s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 13:31:26,2021-02-24 13:31:26,0.153s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:26,2021-02-24 13:31:37,10.730s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu -/img_TH_avatar order-3 order-xl-4 ml-4 mt-1""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:37,2021-02-24 13:31:38,0.565s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu -/button_ Facebook""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:38,2021-02-24 13:31:38,0.485s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:38,2021-02-24 13:31:40,1.908s,PASSED
+"setText(findTestObject(""Object Repository/By Case/16/Page_Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:40,2021-02-24 13:31:41,0.750s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/By Case/16/Page_Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 13:31:41,2021-02-24 13:31:42,0.671s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:42,2021-02-24 13:31:42,0.445s,PASSED
+delay(7),Chrome 88.0.4324.182,,,2021-02-24 13:31:42,2021-02-24 13:31:49,7.002s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 13:31:49,2021-02-24 13:31:49,0.020s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:49,2021-02-24 13:31:49,0.390s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_  Bluuu -/a_""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:49,2021-02-24 13:31:51,1.445s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:51,2021-02-24 13:31:52,1.124s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:52,2021-02-24 13:31:53,0.942s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/span_25""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:53,2021-02-24 13:31:56,3.222s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/div__arrow-down""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:56,2021-02-24 13:31:59,2.986s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/li_0730""))",Chrome 88.0.4324.182,,,2021-02-24 13:31:59,2021-02-24 13:32:03,3.558s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:03,2021-02-24 13:32:03,0.455s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/li_3""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:03,2021-02-24 13:32:04,0.393s,PASSED
+"setText(findTestObject(""Object Repository/By Case/16/Page_Bluuu/input____BVID__288""), ""paragon"")",Chrome 88.0.4324.182,,,2021-02-24 13:32:04,2021-02-24 13:32:10,6.569s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:10,2021-02-24 13:32:13,3.030s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:13,2021-02-24 13:32:16,3.018s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/li_ 2""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:16,2021-02-24 13:32:19,3.132s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:19,2021-02-24 13:32:20,0.454s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/li_""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:20,2021-02-24 13:32:20,0.440s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/span_""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:20,2021-02-24 13:32:21,0.736s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/button_""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:21,2021-02-24 13:32:21,0.383s,PASSED
+"click(findTestObject(""Object Repository/By Case/16/Page_Bluuu/button__1""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:21,2021-02-24 13:32:22,0.371s,PASSED
+"click(findTestObject(""Object Repository/By Case/15/Page_/a_""))",Chrome 88.0.4324.182,,,2021-02-24 13:32:22,2021-02-24 13:32:28,6.769s,FAILED

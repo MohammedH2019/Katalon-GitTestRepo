@@ -35,13 +35,13 @@ WebUI.setEncryptedText(findTestObject('Object Repository/By Case/16/Page_Faceboo
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Facebook/label__loginbutton'))
 
-WebUI.delay(7)
+WebUI.delay(5)
 
 WebUI.switchToWindowTitle('Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด')
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu -/a_'))
+WebUI.click(findTestObject('By Case/16/Page_Bluuu -/a_serviceCharge'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_  Bluuu -/a_'))
+WebUI.click(findTestObject('By Case/16/Page_  Bluuu -/img_One Time Booking'))
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/svg__vc-svg-icon'))
 
@@ -53,29 +53,40 @@ WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-d
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_0730'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1'))
+WebUI.click(findTestObject('By Case/16/Page_Bluuu/div_duration'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_3'))
+WebUI.click(findTestObject('By Case/16/Page_Bluuu/li_3 hours'))
 
 WebUI.setText(findTestObject('Object Repository/By Case/16/Page_Bluuu/input____BVID__288'), 'paragon')
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div_Paragon Cineplex'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2'))
+'place'
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_RoomType'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_ 2'))
+'condo 2 bedroom'
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Condo2Bedroom'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_arrow-down_CleanType'))
 
-WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_'))
+'cleaning and laundry'
+WebUI.click(findTestObject('Used/zElement-Bluuu/li_Clean-and-Laundry'))
 
+//WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2'))
+//
+//WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_ 2'))
+//
+//WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/div__arrow-down_1_2_3'))
+//
+//WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/li_'))
+//
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/span_'))
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/button_'))
 
 WebUI.click(findTestObject('Object Repository/By Case/16/Page_Bluuu/button__1'))
 
-WebUI.click(findTestObject('Object Repository/By Case/15/Page_/a_'))
+WebUI.click(findTestObject('By Case/15/Page_/a_'))
 
 WebUI.setText(findTestObject('Object Repository/By Case/15/Page_/input__ctl00mainTxtPromptPayName'), 'test')
 
@@ -90,16 +101,15 @@ get_dura = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu
 get_start = WebUI.getText(findTestObject('Object Repository/By Case/15/Page_Bluuu/td_25 .. 2021, 0700'))
 
 if (get_dura == 'ครั้งเดียว: 3 ชม.') {
-    a = 1
+	a = 1
 }
 
 if (get_start == '25 เม.ย. 2021, 07:30') {
-    b = 1
+	b = 1
 }
 
 if ((a + b) == 2) {
-    WebUI.closeBrowser()
+	WebUI.closeBrowser()
 } else {
-    KeywordUtil.markFailed('')
+	KeywordUtil.markFailed('')
 }
-

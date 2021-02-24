@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Case,Chrome 88.0.4324.182,,,2021-02-24 14:04:53,2021-02-24 14:05:32,38.907s,PASSED
+,,,,,,,
+Test Cases/Basic Scenario/01_Check Login,Chrome 88.0.4324.182,,,2021-02-24 14:04:54,2021-02-24 14:05:14,19.929s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:04:55,2021-02-24 14:04:57,2.247s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:04:57,2021-02-24 14:05:01,4.245s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:05:01,2021-02-24 14:05:01,0.150s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:01,2021-02-24 14:05:02,0.743s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/button_ Facebook_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:02,2021-02-24 14:05:03,0.574s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:03,2021-02-24 14:05:04,1.356s,PASSED
+"setText(findTestObject(""Used/Page-Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:04,2021-02-24 14:05:05,0.796s,PASSED
+"setEncryptedText(findTestObject(""Used/Page-Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 14:05:05,2021-02-24 14:05:06,0.704s,PASSED
+"click(findTestObject(""Used/Page-Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:06,2021-02-24 14:05:06,0.416s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:06,2021-02-24 14:05:06,0.052s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:06,2021-02-24 14:05:11,5.127s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/a_myprofile""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:11,2021-02-24 14:05:12,0.886s,PASSED
+"email = getAttribute(findTestObject(""Used/Page_Bluuu/input_myprofile_emailbox""), ""value"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:12,2021-02-24 14:05:13,1.148s,PASSED
+"if (email == ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:13,2021-02-24 14:05:14,0.726s,PASSED
+,,,,,,,
+Test Cases/Basic Scenario/02_Check Logout,Chrome 88.0.4324.182,,,2021-02-24 14:05:14,2021-02-24 14:05:32,17.566s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:05:14,2021-02-24 14:05:16,1.129s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:05:16,2021-02-24 14:05:16,0.126s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:16,2021-02-24 14:05:18,2.362s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:18,2021-02-24 14:05:19,0.946s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/button_ Facebook_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:19,2021-02-24 14:05:20,0.551s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:20,2021-02-24 14:05:22,2.901s,PASSED
+"setText(findTestObject(""Used/Page-Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:22,2021-02-24 14:05:23,0.807s,PASSED
+"setEncryptedText(findTestObject(""Used/Page-Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 14:05:23,2021-02-24 14:05:24,0.425s,PASSED
+"click(findTestObject(""Temp/Page_Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:24,2021-02-24 14:05:24,0.360s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:24,2021-02-24 14:05:24,0.041s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:24,2021-02-24 14:05:29,4.665s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/a_logout""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:29,2021-02-24 14:05:30,0.903s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:30,2021-02-24 14:05:30,0.729s,PASSED
+"log = getText(findTestObject(""Used/zElement-Bluuu/Page_Bluuu/Page_Bluuu -/h4_""))",Chrome 88.0.4324.182,,,2021-02-24 14:05:30,2021-02-24 14:05:31,0.461s,PASSED
+"if (log == ""เข้าสู่ระบบ"")",Chrome 88.0.4324.182,,,2021-02-24 14:05:31,2021-02-24 14:05:32,0.680s,PASSED

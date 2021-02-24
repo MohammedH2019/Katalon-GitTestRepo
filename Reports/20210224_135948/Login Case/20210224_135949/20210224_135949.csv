@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Case,Chrome 88.0.4324.182,,,2021-02-24 13:59:53,2021-02-24 14:00:21,28.131s,FAILED
+,,,,,,,
+Test Cases/Basic Scenario/01_Check Login,Chrome 88.0.4324.182,,,2021-02-24 13:59:54,2021-02-24 14:00:13,18.619s,PASSED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 13:59:55,2021-02-24 13:59:57,2.221s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 13:59:57,2021-02-24 14:00:00,3.080s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:00:00,2021-02-24 14:00:00,0.149s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:00,2021-02-24 14:00:01,0.729s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/button_ Facebook_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:01,2021-02-24 14:00:01,0.565s,PASSED
+"switchToWindowTitle(""Facebook"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:01,2021-02-24 14:00:03,1.424s,PASSED
+"setText(findTestObject(""Used/Page-Facebook/input__email""), ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:03,2021-02-24 14:00:04,0.790s,PASSED
+"setEncryptedText(findTestObject(""Used/Page-Facebook/input__pass""), ""gOP7IdE590r7JITAEPMRJQ=="")",Chrome 88.0.4324.182,,,2021-02-24 14:00:04,2021-02-24 14:00:04,0.680s,PASSED
+"click(findTestObject(""Used/Page-Facebook/label__loginbutton""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:04,2021-02-24 14:00:05,0.362s,PASSED
+"switchToWindowTitle(""Bluuu - จ้างแม่บ้าน ผู้เชี่ยวชาญเรื่องบ้านที่คุณไว้วางใจได้มากที่สุด"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:05,2021-02-24 14:00:05,0.051s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/img_TH_avatar_Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:05,2021-02-24 14:00:10,5.199s,PASSED
+"click(findTestObject(""Used/zElement-Bluuu/a_myprofile""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:10,2021-02-24 14:00:11,0.890s,PASSED
+"email = getAttribute(findTestObject(""Used/Page_Bluuu/input_myprofile_emailbox""), ""value"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:11,2021-02-24 14:00:12,1.006s,PASSED
+"if (email == ""qmkecjunto_1612852822@tfbnw.net"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:12,2021-02-24 14:00:13,0.712s,PASSED
+,,,,,,,
+Test Cases/Basic Scenario/02_Check Logout,Chrome 88.0.4324.182,,,2021-02-24 14:00:13,2021-02-24 14:00:21,8.079s,FAILED
+"openBrowser("""")",Chrome 88.0.4324.182,,,2021-02-24 14:00:13,2021-02-24 14:00:14,1.128s,PASSED
+"navigateToUrl(""https://uat.bluuu.co/"")",Chrome 88.0.4324.182,,,2021-02-24 14:00:14,2021-02-24 14:00:19,4.907s,PASSED
+maximizeWindow(),Chrome 88.0.4324.182,,,2021-02-24 14:00:19,2021-02-24 14:00:19,0.125s,PASSED
+"click(findTestObject(""Object Repository/02/Page_Bluuu -/img_TH_avatar_Not-Login""))",Chrome 88.0.4324.182,,,2021-02-24 14:00:19,2021-02-24 14:00:21,1.443s,FAILED

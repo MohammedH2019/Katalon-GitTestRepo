@@ -69,6 +69,8 @@ WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-
 
 WebUI.click(findTestObject('Object Repository/By Case/18/Page_Bluuu/svg__vc-svg-icon'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('By Case/Date/Page_Bluuu/span_M4D21'))
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/div__arrow-down_1_2_3'))
@@ -77,9 +79,15 @@ WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/li_0700'))
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/span_'))
 
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/By Case/17/Page_Bluuu/input____BVID__561'), 'paragon')
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/div_Paragon Cineplex'))
+
+WebUI.click(findTestObject('Used/zElement-Bluuu/div_arrow-down_CleanType'))
+
+WebUI.click(findTestObject('Used/Package-and-Date/li_Cleaning'))
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/button__1_2'))
 
@@ -87,7 +95,7 @@ WebUI.setText(findTestObject('Object Repository/By Case/17/Page_Bluuu/input____B
 
 WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/button__1_2_3'))
 
-WebUI.click(findTestObject('Object Repository/By Case/17/Page_Bluuu/button__1_2_3_4'))
+WebUI.click(findTestObject('Used/zElement-Bluuu/button_Confirming-From-Promotion'))
 
 WebUI.click(findTestObject('Object Repository/By Case/15/Page_/a_'))
 
@@ -107,13 +115,7 @@ if (get_dura == 'ครั้งเดียว: 2 ชม.') {
     a = 1
 }
 
-if (get_start == '26 เม.ย. 2021, 07:00') {
+if (get_start == '21 เม.ย. 2021, 07:00') {
     b = 1
-}
-
-if ((a + b) == 2) {
-    WebUI.closeBrowser()
-} else {
-    KeywordUtil.markFailed('')
 }
 
