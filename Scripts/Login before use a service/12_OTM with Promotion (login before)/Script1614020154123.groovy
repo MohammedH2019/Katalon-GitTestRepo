@@ -140,8 +140,9 @@ if (get_start == '22 มี.ค. 2021, 07:00') {
 	b = 1
 }
 
-if ((a + b) == 2) {
-	WebUI.closeBrowser()
-} else {
-	KeywordUtil.markFailed('')
-}
+print(a+b)
+//if ((a + b) == 2) {
+//	WebUI.closeBrowser()
+//} else {
+//	KeywordUtil.markFailed('')
+//}

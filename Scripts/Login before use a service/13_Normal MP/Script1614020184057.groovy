@@ -127,6 +127,7 @@ if (getmaid == 'Mark 〽️ Phoom') {
     b = 1
 }
 
+//print(a+b)
 if ((a + b) == 2) {
     WebUI.closeBrowser()
 } else {
